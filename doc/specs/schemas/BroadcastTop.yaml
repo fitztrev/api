@@ -28,3 +28,8 @@ properties:
       nextPage:
         type: [number, "null"]
         example: 5
+
+required:
+  - active
+  - upcoming
+  - past
