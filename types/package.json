@@ -1,0 +1,19 @@
+{
+  "name": "@lichess-org/types",
+  "version": "2.0.19",
+  "description": "Lichess.org API types",
+  "homepage": "https://github.com/lichess-org/api",
+  "license": "AGPL-3.0-or-later",
+  "main": "index.js",
+  "types": "lichess-api.d.ts",
+  "scripts": {
+    "format": "prettier --write .",
+    "gen": "openapi-typescript  ../doc/specs/lichess-api.yaml -o lichess-api.d.ts --default-non-nullable=false"
+  },
+  "devDependencies": {
+    "openapi-typescript": "^7.4.3",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  },
+  "packageManager": "pnpm@9.12.0+sha512.4abf725084d7bcbafbd728bfc7bee61f2f791f977fd87542b3579dcb23504d170d46337945e4c66485cd12d588a0c0e570ed9c477e7ccdd8507cf05f3f92eaca"
+}
