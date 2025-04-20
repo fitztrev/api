@@ -15,7 +15,10 @@
     "createdAt": 1744900702786,
     "url": "https://lichess.org/broadcast/grenke-chess-festival-2025--freestyle-chess-open-b/MKDRilWY",
     "tier": 5,
-    "dates": [1744908300000, 1745244900000],
+    "dates": [
+      1744908300000,
+      1745244900000
+    ],
     "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:yoLFj08r:V3dFH3cK.webp&w=800&sig=b9790c0ba64ccc15c698e42e83fa5648ce879841"
   },
   "rounds": [
@@ -74,6 +77,8 @@
       "name": "Round 6",
       "slug": "round-6",
       "createdAt": 1744370390348,
+      "finishedAt": 1745151651797,
+      "finished": true,
       "startsAt": 1745136900000,
       "url": "https://lichess.org/broadcast/grenke-chess-festival-2025--freestyle-chess-open-b/round-6/fQbMG29G"
     },
@@ -102,5 +107,5 @@
       "url": "https://lichess.org/broadcast/grenke-chess-festival-2025--freestyle-chess-open-b/round-9/l5I0XmL1"
     }
   ],
-  "defaultRoundId": "U0pX1EWs"
+  "defaultRoundId": "BGdkwz5M"
 }
