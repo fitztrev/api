@@ -12,4 +12,30 @@ example(
   }),
 );
 
-example("broadcasts", "getPaginatedToBroadcastPreviews", await prodClient.GET("/api/broadcast/top"));
+example(
+  "broadcasts",
+  "getPaginatedToBroadcastPreviews",
+  await prodClient.GET("/api/broadcast/top"),
+);
+
+example(
+  "broadcasts",
+  "getBroadcastsCreatedByUser",
+  await prodClient.GET("/api/broadcast/by/{username}", {
+    params: {
+      path: {
+        username: "broadcaster",
+      },
+    },
+  }),
+);
+
+example(
+  "broadcasts",
+  "createBroadcastTournament",
+  await localClient.POST("/broadcast/new", {
+    body: {
+      name: "My Tournament",
+    },
+  }),
+);

@@ -15,10 +15,7 @@
     "createdAt": 1744900702786,
     "url": "https://lichess.org/broadcast/grenke-chess-festival-2025--freestyle-chess-open-b/MKDRilWY",
     "tier": 5,
-    "dates": [
-      1744908300000,
-      1745244900000
-    ],
+    "dates": [1744908300000, 1745244900000],
     "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:yoLFj08r:V3dFH3cK.webp&w=800&sig=b9790c0ba64ccc15c698e42e83fa5648ce879841"
   },
   "rounds": [
@@ -87,6 +84,8 @@
       "name": "Round 7",
       "slug": "round-7",
       "createdAt": 1744370411847,
+      "finishedAt": 1745171909440,
+      "finished": true,
       "startsAt": 1745158500000,
       "url": "https://lichess.org/broadcast/grenke-chess-festival-2025--freestyle-chess-open-b/round-7/BGdkwz5M"
     },

@@ -1,46 +1,5 @@
 import { example, localClient, prodClient } from "./config";
 
-// Account
-example("account", "getMyProfile", await localClient.GET("/api/account"));
-example(
-  "account",
-  "getMyEmailAddress",
-  await localClient.GET("/api/account/email"),
-);
-example(
-  "account",
-  "getMyPreferences",
-  await localClient.GET("/api/account/preferences"),
-);
-example(
-  "account",
-  "getMyKidModeStatus",
-  await localClient.GET("/api/account/kid"),
-);
-example(
-  "account",
-  "setMyKidModeStatus",
-  await localClient.POST("/api/account/kid", {
-    params: {
-      query: {
-        v: true,
-      },
-    },
-  }),
-);
-example(
-  "account",
-  "getMyTimeline",
-  await localClient.GET("/api/timeline", {
-    params: {
-      query: {
-        since: 0,
-      },
-    },
-  }),
-);
-
-// Users
 example(
   "users",
   "getRealTimeUsersStatus",
@@ -55,7 +14,9 @@ example(
     },
   }),
 );
+
 example("users", "getAllTop10", await prodClient.GET("/api/player"));
+
 example(
   "users",
   "getOneLeaderboard",
@@ -68,6 +29,7 @@ example(
     },
   }),
 );
+
 example(
   "users",
   "getUserPublicData",
@@ -79,6 +41,7 @@ example(
     },
   }),
 );
+
 example(
   "users",
   "getRatingHistoryOfAUser",
@@ -90,6 +53,7 @@ example(
     },
   }),
 );
+
 example(
   "users",
   "getPerformanceStatisticsOfAUser",
@@ -102,6 +66,7 @@ example(
     },
   }),
 );
+
 example(
   "users",
   "getUserActivity",
@@ -113,6 +78,7 @@ example(
     },
   }),
 );
+
 example(
   "users",
   "getUsersById",
@@ -124,11 +90,13 @@ example(
     bodySerializer: (body) => body,
   }),
 );
+
 example(
   "users",
   "getLiveStreamers",
   await prodClient.GET("/api/streamer/live"),
 );
+
 example(
   "users",
   "getCrosstable",
@@ -141,6 +109,7 @@ example(
     },
   }),
 );
+
 example(
   "users",
   "autocompleteUsernames",
@@ -153,6 +122,7 @@ example(
     },
   }),
 );
+
 example(
   "users",
   "addNoteForUser",
@@ -167,6 +137,7 @@ example(
     },
   }),
 );
+
 example(
   "users",
   "getNotesForUser",
@@ -174,32 +145,6 @@ example(
     params: {
       path: {
         username: "mary",
-      },
-    },
-  }),
-);
-
-example(
-  "arenas",
-  "getArenaById",
-  await prodClient.GET("/api/tournament/{id}", {
-    params: {
-      path: {
-        id: "may24lta",
-      },
-    },
-  }),
-);
-
-example("simuls", "getCurrentSimuls", await prodClient.GET("/api/simul"));
-
-example(
-  "teams",
-  "getSingleTeam",
-  await prodClient.GET("/api/team/{teamId}", {
-    params: {
-      path: {
-        teamId: "lichess-swiss",
       },
     },
   }),

@@ -18,17 +18,23 @@
         "createdAt": 1744369126931,
         "url": "https://lichess.org/broadcast/grenke-chess-festival-2025--freestyle-chess-open/yoLFj08r",
         "tier": 5,
-        "dates": [
-          1744908300000,
-          1745244900000
-        ],
+        "dates": [1744908300000, 1745244900000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:yoLFj08r:V3dFH3cK.webp&w=800&sig=b9790c0ba64ccc15c698e42e83fa5648ce879841"
       },
       "round": {
+        "id": "0FOSkH0y",
+        "name": "Round 8",
+        "slug": "round-8",
+        "createdAt": 1744370439196,
+        "startsAt": 1745223300000
+      },
+      "roundToLink": {
         "id": "1Ijb2loH",
         "name": "Round 7",
         "slug": "round-7",
         "createdAt": 1744370411847,
+        "finishedAt": 1745175864598,
+        "finished": true,
         "startsAt": 1745158500000
       },
       "group": "grenke Chess Festival 2025"
@@ -51,18 +57,23 @@
         "createdAt": 1743970937261,
         "url": "https://lichess.org/broadcast/fide-womens-grand-prix-202425--pune/kTMK4u1P",
         "tier": 5,
-        "dates": [
-          1744623900000,
-          1745397900000
-        ],
+        "dates": [1744623900000, 1745397900000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:kTMK4u1P:nSt9zNdC.webp&w=800&sig=99cd7321bf3718074cd95be0ef2cb8d87caec341"
       },
       "round": {
+        "id": "ZPXXCcDI",
+        "name": "Round 7",
+        "slug": "round-7",
+        "createdAt": 1743973157039,
+        "startsAt": 1745228700000
+      },
+      "roundToLink": {
         "id": "0YcI1JXN",
         "name": "Round 6",
         "slug": "round-6",
         "createdAt": 1743973141709,
-        "ongoing": true,
+        "finishedAt": 1745160697816,
+        "finished": true,
         "startsAt": 1745142300000
       },
       "group": "FIDE Women's Grand Prix 2024/25"
@@ -85,10 +96,7 @@
         "createdAt": 1727374243561,
         "url": "https://lichess.org/broadcast/german-bundesliga-202425/xKTYkKj1",
         "tier": 5,
-        "dates": [
-          1727525700000,
-          1745741700000
-        ],
+        "dates": [1727525700000, 1745741700000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=aaarmstark:relay:xKTYkKj1:1w1QC3I9.jpg&w=800&sig=7f4a38534301a4f12818485cdd2bae829ce6623b",
         "teamTable": true
       },
@@ -111,48 +119,6 @@
     },
     {
       "tour": {
-        "id": "Nzz5dwhM",
-        "name": "IX Open Semana Santa San Vicente del Raspeig Costa Blanca 2025 | Grupo A",
-        "slug": "ix-open-semana-santa-san-vicente-del-raspeig-costa-blanca-2025--grupo-a",
-        "info": {
-          "website": "https://www.eventosdeajedrez.com/",
-          "players": "Murzin, Puranik, Lu, Ivanchuk",
-          "location": "San Vicente del Raspeig (Alicante). Spain",
-          "tc": "90 min + 30 sec",
-          "fideTc": "standard",
-          "timeZone": "Europe/Madrid",
-          "standings": "https://chess-results.com/tnr1010756.aspx?lan=2&flag=30&turdet=ALL",
-          "format": "9-round Swiss"
-        },
-        "createdAt": 1738870621185,
-        "url": "https://lichess.org/broadcast/ix-open-semana-santa-san-vicente-del-raspeig-costa-blanca-2025--grupo-a/Nzz5dwhM",
-        "tier": 4,
-        "dates": [
-          1744815600000,
-          1745222400000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:Nzz5dwhM:GOaDyhAO.webp&w=800&sig=3593159deb5a7f79c73ea66794f616b44e4601f7"
-      },
-      "round": {
-        "id": "Lab0rCwQ",
-        "name": "Ronda 8",
-        "slug": "ronda-8",
-        "createdAt": 1738871283250,
-        "startsAt": 1745161200000
-      },
-      "roundToLink": {
-        "id": "jkpTlweA",
-        "name": "Ronda 7",
-        "slug": "ronda-7",
-        "createdAt": 1738871278979,
-        "finishedAt": 1745154193799,
-        "finished": true,
-        "startsAt": 1745136900000
-      },
-      "group": "IX Open Semana Santa San Vicente del Raspeig Costa Blanca 2025"
-    },
-    {
-      "tour": {
         "id": "r0eh3s3n",
         "name": "22nd Bangkok Chess Club Open 2025",
         "slug": "22nd-bangkok-chess-club-open-2025",
@@ -169,10 +135,7 @@
         "createdAt": 1744182204884,
         "url": "https://lichess.org/broadcast/22nd-bangkok-chess-club-open-2025/r0eh3s3n",
         "tier": 4,
-        "dates": [
-          1744530300000,
-          1745201700000
-        ],
+        "dates": [1744530300000, 1745201700000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:r0eh3s3n:PYxl1j7M.webp&w=800&sig=381f4c8491c724440b3723c924e27ef313202f98"
       },
       "round": {
@@ -181,16 +144,46 @@
         "slug": "round-9",
         "createdAt": 1744182393842,
         "startsAt": 1745201700000
+      }
+    },
+    {
+      "tour": {
+        "id": "Nzz5dwhM",
+        "name": "IX Open Semana Santa San Vicente del Raspeig Costa Blanca 2025 | Grupo A",
+        "slug": "ix-open-semana-santa-san-vicente-del-raspeig-costa-blanca-2025--grupo-a",
+        "info": {
+          "website": "https://www.eventosdeajedrez.com/",
+          "players": "Murzin, Puranik, Lu, Ivanchuk",
+          "location": "San Vicente del Raspeig (Alicante). Spain",
+          "tc": "90 min + 30 sec",
+          "fideTc": "standard",
+          "timeZone": "Europe/Madrid",
+          "standings": "https://chess-results.com/tnr1010756.aspx?lan=2&flag=30&turdet=ALL",
+          "format": "9-round Swiss"
+        },
+        "createdAt": 1738870621185,
+        "url": "https://lichess.org/broadcast/ix-open-semana-santa-san-vicente-del-raspeig-costa-blanca-2025--grupo-a/Nzz5dwhM",
+        "tier": 4,
+        "dates": [1744815600000, 1745222400000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:Nzz5dwhM:GOaDyhAO.webp&w=800&sig=3593159deb5a7f79c73ea66794f616b44e4601f7"
+      },
+      "round": {
+        "id": "qi2QQBsW",
+        "name": "Ronda 9",
+        "slug": "ronda-9",
+        "createdAt": 1738871288860,
+        "startsAt": 1745222400000
       },
       "roundToLink": {
-        "id": "9VWRNkNx",
-        "name": "Round 8",
-        "slug": "round-8",
-        "createdAt": 1744182386308,
-        "finishedAt": 1745148941376,
+        "id": "Lab0rCwQ",
+        "name": "Ronda 8",
+        "slug": "ronda-8",
+        "createdAt": 1738871283250,
+        "finishedAt": 1745178642452,
         "finished": true,
-        "startsAt": 1745129700000
-      }
+        "startsAt": 1745162100000
+      },
+      "group": "IX Open Semana Santa San Vicente del Raspeig Costa Blanca 2025"
     },
     {
       "tour": {
@@ -210,10 +203,7 @@
         "createdAt": 1731711044276,
         "url": "https://lichess.org/broadcast/german-womens-bundesliga-202425/5tP5QRkT",
         "tier": 4,
-        "dates": [
-          1731762900000,
-          1745741700000
-        ],
+        "dates": [1731762900000, 1745741700000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=aaarmstark:relay:5tP5QRkT:zSzDVWWk.webp&w=800&sig=be05d3b671715dad55f4cbf74fbd06602af956ca",
         "teamTable": true
       },
@@ -229,713 +219,38 @@
         "name": "Round 8",
         "slug": "round-8",
         "createdAt": 1731711229452,
-        "finishedAt": 1742130221160,
+        "finishedAt": 1745160440591,
         "finished": true,
         "startsAt": 1742112900000
       }
     },
     {
       "tour": {
-        "id": "jC1DYpOF",
-        "name": "Danish Championship 2025 | Landsholdsklassen",
-        "slug": "danish-championship-2025--landsholdsklassen",
+        "id": "stSVniC9",
+        "name": "2025 O2C Doeberl Cup",
+        "slug": "2025-o2c-doeberl-cup",
         "info": {
-          "format": "9-player round-robin",
-          "website": "http://www.skak-dm.dk/",
-          "players": "Sune Berg, Filip Boe, Jesper Søndergård, Martin",
-          "location": "Vendborg, Denmark",
-          "tc": "90 min / 40 moves + 30 min + 30 sec / move",
+          "website": "https://doeberlcup.com.au/",
+          "location": "Canberra, Australia",
+          "tc": "90 mins + 30 secs increment.",
           "fideTc": "standard",
-          "timeZone": "Europe/Copenhagen"
+          "timeZone": "Australia/Victoria",
+          "standings": "https://chess-results.com/tnr1159538.aspx?lan=1",
+          "format": "9-round Swiss"
         },
-        "createdAt": 1744071346948,
-        "url": "https://lichess.org/broadcast/danish-championship-2025--landsholdsklassen/jC1DYpOF",
+        "createdAt": 1744630117830,
+        "url": "https://lichess.org/broadcast/2025-o2c-doeberl-cup/stSVniC9",
         "tier": 3,
-        "dates": [
-          1744459200000,
-          1745143200000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:jC1DYpOF:OvGsm1yv.webp&w=800&sig=8ba7127a3206c5200069e7ea8242612ce259935a"
+        "dates": [1744860600000, 1745193600000],
+        "image": "https://image.lichess1.org/display?fmt=png&h=400&op=thumbnail&path=relay:stSVniC9:wC1Y7gPG.png&w=800&sig=126e0fa42d08c80507ff67b5825ffd6639ed73a1"
       },
       "round": {
-        "id": "1N1SpYME",
+        "id": "qhAsMRVw",
         "name": "Round 9",
         "slug": "round-9",
-        "createdAt": 1744071585588,
+        "createdAt": 1744630776617,
         "ongoing": true,
-        "startsAt": 1745143200000
-      },
-      "group": "Danish Championship 2025"
-    },
-    {
-      "tour": {
-        "id": "i6RjRMpi",
-        "name": "Finnish Championship 2025 | Open",
-        "slug": "finnish-championship-2025--open",
-        "info": {
-          "website": "https://www.shakkiliitto.fi/sm2025/",
-          "players": "IM Keinänen – IM Sipilä – IM Agopov – IM Köykkä",
-          "location": "Helsinki, Finland",
-          "tc": "90'/40 moves + 30' + 30''/move",
-          "fideTc": "standard",
-          "timeZone": "Europe/Helsinki",
-          "standings": "https://chess-results.com/tnr1155365.aspx?lan=18&turdet=ALL",
-          "format": "10-player round robin"
-        },
-        "createdAt": 1744293589775,
-        "url": "https://lichess.org/broadcast/finnish-championship-2025--open/i6RjRMpi",
-        "tier": 3,
-        "dates": [
-          1744981200000,
-          1745658000000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:i6RjRMpi:hJPASbe7.webp&w=800&sig=d4c85360ca87d395883a9b9ddfc0675003fced93",
-        "description": "The **Finnish Championship 2025 | Open** is a 10-player round-robin, held from the 18th to the 26th of April in Helsinki, Finland.\r\n\r\nTime control is 90 minutes for 40 moves, followed by 30 minutes for the rest of the game, with a 30-second increment starting from move one.\r\n\r\n[Live commentary with NM Toni Pönniö & guests](https://www.twitch.tv/shakkilinna)\r\n[Official website](https://www.shakkiliitto.fi/sm2025/)\r\n[Players and results](https://chess-results.com/tnr1155365.aspx?lan=18&art=0&turdet=YES)"
-      },
-      "round": {
-        "id": "zrcSPZSL",
-        "name": "Round 3",
-        "slug": "round-3",
-        "createdAt": 1744293636635,
-        "ongoing": true,
-        "startsAt": 1745154000000
-      },
-      "group": "Finnish Championship 2025"
-    },
-    {
-      "tour": {
-        "id": "kbIUsnqS",
-        "name": "67th Southend Easter Chess Festival 2025 | GM Round Robin",
-        "slug": "67th-southend-easter-chess-festival-2025--gm-round-robin",
-        "info": {
-          "website": "https://southendchesscongress.org/",
-          "location": "Southend on Sea, Essex",
-          "tc": "G: 90 min + 30 sec",
-          "fideTc": "standard",
-          "timeZone": "Etc/UTC",
-          "standings": "https://chess-results.com/tnr1078871.aspx?lan=1&art=0&turdet=ALL&flag=30",
-          "format": "10 player Round-Robin"
-        },
-        "createdAt": 1744754149227,
-        "url": "https://lichess.org/broadcast/67th-southend-easter-chess-festival-2025--gm-round-robin/kbIUsnqS",
-        "tier": 3,
-        "dates": [
-          1744882200000,
-          1745227800000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:kbIUsnqS:mDsTvKTy.webp&w=800&sig=f40937fa6ef76503326c172304554c527099120c",
-        "description": "*The tournament is sponsored by: [The Chess Trust](https://chesstrust.org.uk), [John Robinson Youth Chess Trust](https://johnrobinsonchess.org/),  [English Chess Federation](https://www.englishchess.org.uk/), [Friends of Chess](https://www.friendsofchess.org.uk/)*"
-      },
-      "round": {
-        "id": "EdfaVXEP",
-        "name": "Round 7",
-        "slug": "round-7",
-        "createdAt": 1744754263387,
-        "ongoing": true,
-        "startsAt": 1745141400000
-      },
-      "group": "67th Southend Easter Chess Festival 2025"
-    },
-    {
-      "tour": {
-        "id": "jftZLioc",
-        "name": "MAR DEL PLATA: Campeonatos Argentinos de Menores Cam25",
-        "slug": "mar-del-plata-campeonatos-argentinos-de-menores-cam25",
-        "info": {
-          "website": "https://federacionargentinadeajedrez.org/?page_id=8170",
-          "location": "Mar del Plata, Buenos Aires",
-          "tc": "60 min / 30 moves + 30 min",
-          "fideTc": "standard",
-          "timeZone": "America/Argentina/Buenos_Aires",
-          "standings": "https://chess-results.com/tnr1135484.aspx?art=1",
-          "format": "9-round Swiss"
-        },
-        "createdAt": 1744659841483,
-        "url": "https://lichess.org/broadcast/mar-del-plata-campeonatos-argentinos-de-menores-cam25/jftZLioc",
-        "tier": 3,
-        "dates": [
-          1744725600000,
-          1745150400000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:jftZLioc:pHfSg3v3.webp&w=800&sig=87148093022689bd42345471e8c3c3fb18c82ebf",
-        "description": "CAM25: Los Campeonatos Argentinos infantiles y juveniles se realizaran del 15 al 20 de abril en Mar del Plata\r\nLos Campeonatos Argentinos Infantiles y Juveniles, en las categorías Sub-8 a Sub-20, tanto Absoluto como Femenino, se llevarán a cabo del 15 al 20 de abril en la ciudad de Mar del Plata. Reconocida como una de las ciudades con mayor tradición ajedrecística del país, Mar del Plata se prepara para recibir a cientos de jóvenes talentos y sus familias en estos nuevos CAM25.\r\n \r\n15 al 20 de abril. Lugar de juego: Polideportivo Colinas de Peralta Ramos Mar del Plata, Buenos Aires."
-      },
-      "round": {
-        "id": "p3CRhRcw",
-        "name": "Round 8",
-        "slug": "round-8",
-        "createdAt": 1744704398189,
-        "ongoing": true,
-        "startsAt": 1745150400000
-      }
-    },
-    {
-      "tour": {
-        "id": "GEluoVXe",
-        "name": "The Påskturneringen 2025",
-        "slug": "the-paskturneringen-2025",
-        "info": {
-          "website": "https://www.schack08.se/paskturneringen/",
-          "players": "Seo, Söderström, Elmi, Falkevall",
-          "location": "Elite Grand Hotel, Norrköping, Sweden",
-          "tc": "Classical & Rapid",
-          "fideTc": "standard",
-          "timeZone": "Europe/Stockholm",
-          "standings": "https://www.schack08.se/paskturneringen/lottning-och-resultat/",
-          "format": "8-round Swiss"
-        },
-        "createdAt": 1744640404726,
-        "url": "https://lichess.org/broadcast/the-paskturneringen-2025/GEluoVXe",
-        "tier": 3,
-        "dates": [
-          1744977600000,
-          1745218800000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:GEluoVXe:DUdp6600.webp&w=800&sig=bcfa4c8edcb0973febe310ee1a20970f9602d2df",
-        "description": "The **Påskturneringen 2025** is an 8-round open Swiss tournament, held from the 18th to the 21st of April in Norrköping, Sweden, and is part of the [Svenskt Grand Prix 2024/2025](https://schack.se/svenskt-grand-prix-2024-2025/).\r\n\r\nFor rounds 1-2, time control is 15 minutes with a 5-second increment from move one.\r\nFor rounds 3-8, time control is 90 minutes for 40 moves, followed by 30 minutes for the rest of the game, with a 30-second increment from move one.\r\n\r\n[Video Stream] (no audio) | [Livechess PGN] | [Svenskt Grand Prix Standings]\r\n\r\nPrevious editions: [2024] [2023] [2022]\r\n\r\n[Official Website]: https://schack08.se/paskturneringen\r\n[Video Stream]: https://youtube.com/playlist?list=PL-gGQ-qcPMDi1Xi83xv5ocLb_2_fHBDCe&si=AlT4XL6dxQYUQzin\r\n[Livechess PGN]: https://live.schack.se/paskturneringen/Paskturneringen2025.pgn\r\n[Svenskt Grand Prix Standings]: https://member.schack.se/ShowTournamentServlet?id=14213\r\n[2024]: https://lichess.org/broadcast/the-paskturneringen-2024/rP9kKUMi\r\n[2023]: https://lichess.org/broadcast/paskturneringen-2023/qF82IeNW\r\n[2022]: https://lichess.org/broadcast/paskturneringen-2022/7mmrNH4Q"
-      },
-      "round": {
-        "id": "bGakH1if",
-        "name": "Rond 7",
-        "slug": "rond-7",
-        "createdAt": 1744640959916,
-        "startsAt": 1745157600000
-      }
-    },
-    {
-      "tour": {
-        "id": "p8HKzGiq",
-        "name": "Swiss Young Masters 2025",
-        "slug": "swiss-young-masters-2025",
-        "info": {
-          "website": "https://swissyoungmasters.ch/",
-          "location": "Basel, Switzerland",
-          "tc": "90 min / 40 moves + 30 min + 30 sec / move",
-          "fideTc": "standard",
-          "timeZone": "Europe/Zurich",
-          "standings": "https://chess-results.com/tnr1120907.aspx?art=1",
-          "format": "10-player round-robin"
-        },
-        "createdAt": 1741194428382,
-        "url": "https://lichess.org/broadcast/swiss-young-masters-2025/p8HKzGiq",
-        "tier": 3,
-        "dates": [
-          1744976700000,
-          1745667900000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:p8HKzGiq:pWlkaq0a.webp&w=800&sig=cae7356bf9a7819d3a427cd24325ca5f9453ccce"
-      },
-      "round": {
-        "id": "X3kAB4mj",
-        "name": "Round 3",
-        "slug": "round-3",
-        "createdAt": 1741194654834,
-        "ongoing": true,
-        "startsAt": 1745149500000
-      }
-    },
-    {
-      "tour": {
-        "id": "UTDP0wDE",
-        "name": "The Dublin International Easter events 2025",
-        "slug": "the-dublin-international-easter-events-2025",
-        "info": {
-          "fideTc": "standard",
-          "timeZone": "Etc/UTC",
-          "website": "https://www.icu.ie/events/1879"
-        },
-        "createdAt": 1744999172340,
-        "url": "https://lichess.org/broadcast/the-dublin-international-easter-events-2025/UTDP0wDE",
-        "tier": 3,
-        "dates": [
-          1745001000000,
-          1745143200000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=png&h=400&op=thumbnail&path=relay:UTDP0wDE:fEQYprXr.png&w=800&sig=b47d4180a3f3364409edcc99a4722913486c5978",
-        "description": "7 rounds \r\n2 sections - Open and 50+/65+s\r\nBoards 1-10 Open\r\nBoards 11-14 over 50 and over 65"
-      },
-      "round": {
-        "id": "Di3JjMm2",
-        "name": "Round 4",
-        "slug": "round-4",
-        "createdAt": 1745140406744,
-        "ongoing": true,
-        "startsAt": 1745143200000
-      }
-    },
-    {
-      "tour": {
-        "id": "73e8BZiK",
-        "name": "1er Championnat de France de parties rapides par équipes",
-        "slug": "1er-championnat-de-france-de-parties-rapides-par-equipes",
-        "info": {
-          "format": "15-round Swiss for teams",
-          "website": "https://www.echecs.asso.fr/",
-          "location": "Cappelle-la-Grande",
-          "tc": "15 min + 3 sec / move",
-          "fideTc": "rapid",
-          "timeZone": "Europe/Paris"
-        },
-        "createdAt": 1744876083368,
-        "url": "https://lichess.org/broadcast/1er-championnat-de-france-de-parties-rapides-par-equipes/73e8BZiK",
-        "tier": 3,
-        "dates": [
-          1745069400000,
-          1745584200000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:73e8BZiK:NM5i8uhs.webp&w=800&sig=4a6bb62846c2a0cc2b9d41f86a0b284d3c1823a7",
-        "teamTable": true
-      },
-      "round": {
-        "id": "GpN8sbZK",
-        "name": "Round 9",
-        "slug": "round-9",
-        "createdAt": 1744876220562,
-        "ongoing": true,
-        "startsAt": 1745152200000
-      }
-    },
-    {
-      "tour": {
-        "id": "X14hZMEW",
-        "name": "4NCL Easter Congress 2025 - U2000",
-        "slug": "4ncl-easter-congress-2025-u2000",
-        "info": {
-          "website": "https://www.4ncl.co.uk/fide/information_easter25.htm",
-          "location": "Mercure Daventry Court Hotel, Sedgemoor Way, Daventry,  NN11 0SG.",
-          "tc": "90 min + 30 sec / move",
-          "fideTc": "standard",
-          "timeZone": "GB",
-          "standings": "https://chess-results.com/tnr1153968.aspx?art=1",
-          "format": "7-round Swiss"
-        },
-        "createdAt": 1744624615363,
-        "url": "https://lichess.org/broadcast/4ncl-easter-congress-2025-u2000/X14hZMEW",
-        "tier": 3,
-        "dates": [
-          1744984800000,
-          1745244000000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:X14hZMEW:5vfflxsO.webp&w=800&sig=24d8e3bd5373235af0741ae7409a2e2b3d99676c",
-        "description": "5th 4NCL Easter Congress\r\n\r\nFriday 18 April – Monday 21 April 2025\r\nMercure Daventry Court Hotel, Sedgemoor Way, Daventry, NN11 0SG\r\n\r\nThree Sections\r\nFIDE Rated Open\r\nFIDE Rated U2000\r\nFIDE Rated U1700\r\nAll sections (seven rounds)\r\n\r\nPrize fund £4,200\r\n\r\nPlaying Schedule\r\nRound 1.     Friday 15.00 - 19.00\r\nRound 2.     Saturday 10.00 - 14.00\r\nRound 3.     Saturday 15.00 - 19.00\r\nRound 4.     Sunday 10.00 - 14.00\r\nRound 5.     Sunday 15.00 - 19.00\r\nRound 6.     Monday 10.00 - 14.00\r\nRound 7.     Monday 15.00 - 19.00\r\n\t \r\nTwo ½ point byes may be taken in rounds 1–6.\r\n\r\nTime Control\r\nAll moves in 90 minutes plus 30 second increment per move from move 1.\r\nRe-pairing will take place 30 minutes after the start of a round. Players will be defaulted 30 minutes after the scheduled start of a round."
-      },
-      "round": {
-        "id": "MLhLSo3t",
-        "name": "Round 4",
-        "slug": "round-4",
-        "createdAt": 1744624712784,
-        "ongoing": true,
-        "startsAt": 1745139600000
-      },
-      "group": "4NCL Easter Congress 2025"
-    },
-    {
-      "tour": {
-        "id": "4yldhcwQ",
-        "name": "Trophée Dalkia 2025",
-        "slug": "trophee-dalkia-2025",
-        "info": {
-          "website": "https://asnieres-sur-seine.fr/agenda/detail/un-tournoi-de-grands-maitres-pour-feter-les-10-ans-du-club-asnieres-le-grand-echiquier",
-          "players": "Moussard, Batsiashvili, Motylev, Grieve",
-          "location": "Asnières sur Seine, Paris, France",
-          "tc": "90 min / 40 moves + 30 min + 30 sec / move",
-          "fideTc": "standard",
-          "timeZone": "Europe/Paris",
-          "standings": "https://chess-results.com/tnr1103037.aspx?lan=1",
-          "format": "10-player round-robin"
-        },
-        "createdAt": 1743964699367,
-        "url": "https://lichess.org/broadcast/trophee-dalkia-2025/4yldhcwQ",
-        "tier": 3,
-        "dates": [
-          1744985700000,
-          1745482500000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:4yldhcwQ:bzK0oYxg.webp&w=800&sig=ba09712755dc25994080abe1e14bde70983f60cf",
-        "description": "Les systèmes de départage des ex æquo sont dans l'ordre le « Sonneborn-Berger » puis le « Koya » puis la « performance »."
-      },
-      "round": {
-        "id": "7JwqkJkh",
-        "name": "Round 3",
-        "slug": "round-3",
-        "createdAt": 1743964863255,
-        "ongoing": true,
-        "startsAt": 1745136900000
-      }
-    },
-    {
-      "tour": {
-        "id": "aTcjWkso",
-        "name": "CAMPIONATO GALEGO Absoluto 2025",
-        "slug": "campionato-galego-absoluto-2025",
-        "info": {
-          "website": "https://www.fegaxa.org/",
-          "location": "PADRÓN ( A CORUÑA )",
-          "tc": "90 min + 30 sec / move",
-          "fideTc": "standard",
-          "timeZone": "Europe/Madrid",
-          "standings": "https://info64.org/campionato-galego-absoluto-open-2025",
-          "format": "8-round Swiss"
-        },
-        "createdAt": 1743530778103,
-        "url": "https://lichess.org/broadcast/campionato-galego-absoluto-2025/aTcjWkso",
-        "tier": 3,
-        "dates": [
-          1744876800000,
-          1745157600000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:aTcjWkso:Jnd053vc.webp&w=800&sig=7d1192d4d4b91fdfeb98aaae0698b681d69b2e86",
-        "description": "Campeonatos Gallegos  2025 «Xunta de Galicia» a celebrar en el Hotel Scala (Padrón – A Coruña).\r\n\r\n***\r\n\r\nCampeonatos Gallegos 2024  [U8](https://lichess.org/broadcast/galician-youth-championship-2024--u8/round-1/neKCfUwa) | [U10](https://lichess.org/broadcast/campionato-gallego-sub-10/round-1/OZLMmGt3) | [U12](https://lichess.org/broadcast/campionato-gallego-sub-12/round-1/y9mNWAbB) | [U14](https://lichess.org/broadcast/galician-youth-championship-2024--u14/ronda-1/SkbrfA1i) |\r\n[U16](https://lichess.org/broadcast/campionato-gallego-sub-16-2024/round-1/KNANgM3Z) | [U18](https://lichess.org/broadcast/galician-youth-championship-2024--u18/ronda-1/Cgj1vS1S) | [ABS](https://lichess.org/broadcast/campeonato-gallego-absoluto-feminino-veteranos/round-1/LdfwRnUV) |\r\n\r\n\r\n\r\n![image](https://i.ibb.co/wrTL3K9/Deporte-Galego-III.jpg) ![image](https://i.ibb.co/jH5W5yG/FegaxaII.jpg)"
-      },
-      "round": {
-        "id": "glAoXO0Z",
-        "name": "Ronda 8",
-        "slug": "ronda-8",
-        "createdAt": 1743610919802,
-        "startsAt": 1745157600000
-      }
-    },
-    {
-      "tour": {
-        "id": "94qfp7xo",
-        "name": "Uzbekistan Championship Finals | Women",
-        "slug": "uzbekistan-championship-finals--women",
-        "info": {
-          "location": "Qiziltepa District, Navoiy Region, Uzbekistan",
-          "tc": "90 min + 30 sec / move",
-          "fideTc": "standard",
-          "timeZone": "Asia/Samarkand",
-          "standings": "https://chess-results.com/tnr1162322.aspx",
-          "format": "16-player knock-out"
-        },
-        "createdAt": 1745012624572,
-        "url": "https://lichess.org/broadcast/uzbekistan-championship-finals--women/94qfp7xo",
-        "tier": 3,
-        "dates": [
-          1745055900000,
-          1745745300000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:kocLtUHI:LqkSN0L4.webp&w=800&sig=b7c1f88eae14126d03ecaa8da516588812b32a31"
-      },
-      "round": {
-        "id": "kvlApxB2",
-        "name": "Round of 16 | Tiebreak",
-        "slug": "round-of-16--tiebreak",
-        "createdAt": 1745012114964,
-        "ongoing": true,
-        "startsAt": 1745155639702,
-        "startsAfterPrevious": true
-      },
-      "group": "Uzbekistan Championship Finals"
-    },
-    {
-      "tour": {
-        "id": "OPHRBcXU",
-        "name": "Krefelder Osteropen 2025",
-        "slug": "krefelder-osteropen-2025",
-        "info": {
-          "website": "https://turm-krefeld.de/index.php/turniere/osteropen",
-          "location": "Krefeld",
-          "tc": "90 min / 40 moves + 15 min + 30 sec / move",
-          "fideTc": "standard",
-          "timeZone": "Europe/Berlin",
-          "standings": "https://chess-results.com/tnr1159019.aspx?art=1",
-          "format": "9-round Swiss"
-        },
-        "createdAt": 1744719592312,
-        "url": "https://lichess.org/broadcast/krefelder-osteropen-2025/OPHRBcXU",
-        "tier": 3,
-        "dates": [
-          1744908300000,
-          1745329500000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:OPHRBcXU:0sk3Awdv.webp&w=800&sig=e8f99c1ff2e8fdcc0342bfbad1d41529eba957c2"
-      },
-      "round": {
-        "id": "xDJjaSKh",
-        "name": "Round 6",
-        "slug": "round-6",
-        "createdAt": 1744719792015,
-        "ongoing": true,
-        "startsAt": 1745136900000
-      }
-    },
-    {
-      "tour": {
-        "id": "sdc3jPDu",
-        "name": "The Dublin Easter IM norm 2025",
-        "slug": "the-dublin-easter-im-norm-2025",
-        "info": {
-          "website": "https://www.icu.ie/events/1962",
-          "location": "Talbot Hotel Stillorgan, Co.Dublin, Ireland",
-          "tc": "90 min + 30 sec / move",
-          "fideTc": "standard",
-          "timeZone": "Europe/Dublin",
-          "standings": "https://chess-results.com/tnr1159579.aspx",
-          "format": "10-player round-robin"
-        },
-        "createdAt": 1744899204624,
-        "url": "https://lichess.org/broadcast/the-dublin-easter-im-norm-2025/sdc3jPDu",
-        "tier": 3,
-        "dates": [
-          1744898400000,
-          1745244000000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=png&h=400&op=thumbnail&path=relay:sdc3jPDu:2wZUDKdp.png&w=800&sig=57b53dcfac362369ff12fd4ae46a412ff8718cdd"
-      },
-      "round": {
-        "id": "5MAHrGan",
-        "name": "Round 7",
-        "slug": "round-7",
-        "createdAt": 1745057600321,
-        "startsAt": 1745157600000
-      }
-    },
-    {
-      "tour": {
-        "id": "N2uvRfIf",
-        "name": "2025 Charlotte Spring Norm | GM",
-        "slug": "2025-charlotte-spring-norm--gm",
-        "info": {
-          "format": "10-player round-robin",
-          "website": "https://www.charlottechesscenter.org/events/norm",
-          "location": "Charlotte, North Carolina, United States",
-          "tc": "90 min + 30 sec / move",
-          "fideTc": "standard",
-          "timeZone": "America/New_York"
-        },
-        "createdAt": 1744822157530,
-        "url": "https://lichess.org/broadcast/2025-charlotte-spring-norm--gm/N2uvRfIf",
-        "tier": 3,
-        "dates": [
-          1744841700000,
-          1745180100000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:N2uvRfIf:SI5I2VrE.webp&w=800&sig=350b9de4e36e592edf73c042c3a026049484ff28"
-      },
-      "round": {
-        "id": "n1ze9sIf",
-        "name": "Round 8",
-        "slug": "round-8",
-        "createdAt": 1744822704280,
-        "startsAt": 1745158500000
-      },
-      "group": "2025 Charlotte Spring Norm"
-    },
-    {
-      "tour": {
-        "id": "FEdZG0OL",
-        "name": "2025 Canadian Closed / Championnat Fermé du Canada | Closed",
-        "slug": "2025-canadian-closed--championnat-ferme-du-canada--closed",
-        "info": {
-          "website": "https://2025canclosed.square.site/",
-          "players": "GM Rodrigue-Lemieux, GM Preotu, IM Noritsyn, GM Sambuev",
-          "location": "Toronto, ON",
-          "tc": "90 min + 30 sec / move",
-          "fideTc": "standard",
-          "timeZone": "America/Toronto",
-          "standings": "https://chess-results.com/tnr1114497.aspx?lan=1",
-          "format": "9-round Swiss"
-        },
-        "createdAt": 1742579615313,
-        "url": "https://lichess.org/broadcast/2025-canadian-closed--championnat-ferme-du-canada--closed/FEdZG0OL",
-        "tier": 3,
-        "dates": [
-          1744927200000,
-          1745330400000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:ioHEFapv:xWhLNI8w.webp&w=800&sig=5b1f1ee976e2798d295184e6cf1604cb2c455112",
-        "description": "The 2025 Canadian Closed is the national championships of Canada. The winner and runner up receives additional points for qualification to the Canadian team for the 2026 Olympiad.\r\n\r\nLe Championnat Fermé du Canada détermine le championnat national du Canada. Le gagnant et le joueur en 2eme place recevront des points supplémentaires pour la qualification pour l'équipe canadienne à l'Olympiade d'échecs de 2026."
-      },
-      "round": {
-        "id": "PL79cw0n",
-        "name": "Round 6",
-        "slug": "round-6",
-        "createdAt": 1742565751151,
-        "startsAt": 1745157600000
-      },
-      "group": "2025 Canadian Closed / Championnat Fermé du Canada"
-    },
-    {
-      "tour": {
-        "id": "YE89RmSq",
-        "name": "10ºFestival Internazionale di Scacchi Pasqua a Montesilvano",
-        "slug": "10festival-internazionale-di-scacchi-pasqua-a-montesilvano",
-        "info": {
-          "players": "Di Benedetto, Carnicelli, Zimina",
-          "location": "Montesilvano",
-          "tc": "90' + 30\"",
-          "fideTc": "standard",
-          "timeZone": "Europe/Rome",
-          "standings": "https://vesus.org/event/ZQpRNhMS",
-          "format": "Swiss"
-        },
-        "createdAt": 1744815274145,
-        "url": "https://lichess.org/broadcast/10festival-internazionale-di-scacchi-pasqua-a-montesilvano/YE89RmSq",
-        "tier": 3,
-        "dates": [
-          1745000100000,
-          1745240400000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:YE89RmSq:eklS9kVv.webp&w=800&sig=b67bf63f1c23611054efbd11eae27ac981f1eb73"
-      },
-      "round": {
-        "id": "5e2swjsO",
-        "name": "Round 4",
-        "slug": "round-4",
-        "createdAt": 1744815447099,
-        "startsAt": 1745157600000
-      }
-    },
-    {
-      "tour": {
-        "id": "oxGKArjR",
-        "name": "6th Colonial Open",
-        "slug": "6th-colonial-open",
-        "info": {
-          "format": "7-round Swiss",
-          "website": "https://www.capitalareachess.com/ColonialOpen",
-          "location": "Sterling, Virginia USA",
-          "fideTc": "standard",
-          "timeZone": "America/New_York"
-        },
-        "createdAt": 1744646993529,
-        "url": "https://lichess.org/broadcast/6th-colonial-open/oxGKArjR",
-        "tier": 3,
-        "dates": [
-          1744930800000,
-          1745179200000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:oxGKArjR:FP8GyDGM.webp&w=800&sig=8ecb454738694499617cf82fdb0331eafa3f9881",
-        "description": "The 6th Colonial Open is a 7-round Swiss, held from the 17th to the 20th of April in Sterling - Virginia, USA. Time control is 90 minutes for the entire game with a 30-second increment from move 1"
-      },
-      "round": {
-        "id": "rBpTvJcs",
-        "name": "Round 6",
-        "slug": "round-6",
-        "createdAt": 1744647247235,
-        "startsAt": 1745157600000
-      }
-    },
-    {
-      "tour": {
-        "id": "fz20LLTF",
-        "name": "Berlin Single Championship 2025 Master Class",
-        "slug": "berlin-single-championship-2025-master-class",
-        "info": {
-          "website": "https://www.berlinerschachverband.de/berliner-einzelmeisterschaft-2025.html",
-          "location": "Berlin, Germany",
-          "tc": "90 min / 40 moves + 30 min + 30 sec / move",
-          "fideTc": "standard",
-          "timeZone": "Europe/Berlin",
-          "standings": "https://chess-results.com/tnr1119793.aspx?art=1",
-          "format": "9-round Swiss"
-        },
-        "createdAt": 1745013841235,
-        "url": "https://lichess.org/broadcast/berlin-single-championship-2025-master-class/fz20LLTF",
-        "tier": 3,
-        "dates": [
-          1745075700000,
-          1745741700000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:fz20LLTF:iyPnq8lG.webp&w=800&sig=6e79e1d1d736782da3923fdbe006dc5a17b85d37"
-      },
-      "round": {
-        "id": "BZEVFFvn",
-        "name": "Round 2",
-        "slug": "round-2",
-        "createdAt": 1745014030473,
-        "startsAt": 1745162100000
-      },
-      "roundToLink": {
-        "id": "dIWSVY4E",
-        "name": "Round 1",
-        "slug": "round-1",
-        "createdAt": 1745013903174,
-        "finishedAt": 1745094768039,
-        "finished": true,
-        "startsAt": 1745075700000
-      }
-    },
-    {
-      "tour": {
-        "id": "mKFxQQ9I",
-        "name": "2025 Marshall Monthly U2400 | April",
-        "slug": "2025-marshall-monthly-u2400--april",
-        "info": {
-          "format": "5-round Swiss",
-          "website": "https://www.marshallchessclub.org/",
-          "location": "New York City, USA.",
-          "tc": "90' + 30\"/move",
-          "fideTc": "standard",
-          "timeZone": "America/New_York"
-        },
-        "createdAt": 1744890103865,
-        "url": "https://lichess.org/broadcast/2025-marshall-monthly-u2400--april/mKFxQQ9I",
-        "tier": 3,
-        "dates": [
-          1745018100000,
-          1745185500000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:8h28uxaw:DeZ428NI.webp&w=800&sig=e8ddd10bfbc034d0f7070e23b9fb5a50302adbcb"
-      },
-      "round": {
-        "id": "TAh2Ihib",
-        "name": "Round 4",
-        "slug": "round-4",
-        "createdAt": 1740165359525,
-        "startsAt": 1745167500000
-      },
-      "roundToLink": {
-        "id": "QgdURKn9",
-        "name": "Round 3",
-        "slug": "round-3",
-        "createdAt": 1740165345167,
-        "finishedAt": 1745113243972,
-        "finished": true,
-        "startsAt": 1745099100000
-      },
-      "group": "2025 Marshall Monthly U2400"
-    },
-    {
-      "tour": {
-        "id": "WBbVOnS5",
-        "name": "II ABERTO DO BRASIL RONDÔNIA 2025",
-        "slug": "ii-aberto-do-brasil-rondonia-2025",
-        "info": {
-          "website": "https://www.cbx.org.br/torneio/8508/ii-aberto-do-brasil-rondonia-std-2025",
-          "location": "Cacoal, Rondônia, Brazil",
-          "tc": "90 min + 30 sec / move",
-          "fideTc": "standard",
-          "timeZone": "America/Cuiaba",
-          "standings": "https://chess-results.com/tnr1115139.aspx?lan=10",
-          "format": "6-round Swiss"
-        },
-        "createdAt": 1743465295021,
-        "url": "https://lichess.org/broadcast/ii-aberto-do-brasil-rondonia-2025/WBbVOnS5",
-        "tier": 3,
-        "dates": [
-          1744999200000,
-          1745193600000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:WBbVOnS5:ZNTlNc1c.webp&w=800&sig=a6bba24169b8cf1cedf0eeac4dbd660e854ab01a",
-        "description": "Este torneio é promovido pela Confederação Brasileira de Xadrez (CBX), aberto à participação de jogadores de Rondônia e estados vizinhos. A iniciativa busca fomentar o crescimento do xadrez na região Norte."
-      },
-      "round": {
-        "id": "ezx31Szn",
-        "name": "Rodada 5",
-        "slug": "rodada-5",
-        "createdAt": 1743475977735,
-        "startsAt": 1745172000000
-      },
-      "roundToLink": {
-        "id": "OHg8BV25",
-        "name": "Rodada 4",
-        "slug": "rodada-4",
-        "createdAt": 1743475969925,
-        "finishedAt": 1745121424182,
-        "finished": true,
-        "startsAt": 1745107200000
+        "startsAt": 1745193600000
       }
     },
     {
@@ -956,10 +271,7 @@
         "createdAt": 1744712604776,
         "url": "https://lichess.org/broadcast/wellington-open-2025/mGbGif4r",
         "tier": 3,
-        "dates": [
-          1744926300000,
-          1745203500000
-        ],
+        "dates": [1744926300000, 1745203500000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:mGbGif4r:J4RgTjAD.webp&w=800&sig=acf78272350450b8622193e8dbd6d6fb8bde8c2d",
         "description": "Wellington Open is run over Easter, at the Wellington Bridge Club 17 Tinakori Road, Wellington. Scheduled dates: Easter Friday, Saturday and Monday 18th-19th and 21st April 2025. Note no play on Easter Sunday.\r\n\r\n[Wellington Chess Club](https://wellingtonchess.club/tournaments-2025-wellington-open.html) | [NZ Chess News](https://newzealandchess.nz/wellington-open-2025/) (info and photos)"
       },
@@ -968,56 +280,585 @@
         "name": "Round 5",
         "slug": "round-5",
         "createdAt": 1744712806883,
+        "ongoing": true,
         "startsAt": 1745185500000
-      },
-      "roundToLink": {
-        "id": "OohRzlz6",
-        "name": "Round 4",
-        "slug": "round-4",
-        "createdAt": 1744712785298,
-        "finishedAt": 1745046066077,
-        "finished": true,
-        "startsAt": 1745030700000
       }
     },
     {
       "tour": {
-        "id": "stSVniC9",
-        "name": "2025 O2C Doeberl Cup",
-        "slug": "2025-o2c-doeberl-cup",
+        "id": "oxGKArjR",
+        "name": "6th Colonial Open",
+        "slug": "6th-colonial-open",
         "info": {
-          "website": "https://doeberlcup.com.au/",
-          "location": "Canberra, Australia",
-          "tc": "90 mins + 30 secs increment.",
+          "format": "7-round Swiss",
+          "website": "https://www.capitalareachess.com/ColonialOpen",
+          "location": "Sterling, Virginia USA",
           "fideTc": "standard",
-          "timeZone": "Australia/Victoria",
-          "standings": "https://chess-results.com/tnr1159538.aspx?lan=1",
-          "format": "9-round Swiss"
+          "timeZone": "America/New_York"
         },
-        "createdAt": 1744630117830,
-        "url": "https://lichess.org/broadcast/2025-o2c-doeberl-cup/stSVniC9",
+        "createdAt": 1744646993529,
+        "url": "https://lichess.org/broadcast/6th-colonial-open/oxGKArjR",
         "tier": 3,
-        "dates": [
-          1744860600000,
-          1745193600000
-        ],
-        "image": "https://image.lichess1.org/display?fmt=png&h=400&op=thumbnail&path=relay:stSVniC9:wC1Y7gPG.png&w=800&sig=126e0fa42d08c80507ff67b5825ffd6639ed73a1"
+        "dates": [1744930800000, 1745179200000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:oxGKArjR:FP8GyDGM.webp&w=800&sig=8ecb454738694499617cf82fdb0331eafa3f9881",
+        "description": "The 6th Colonial Open is a 7-round Swiss, held from the 17th to the 20th of April in Sterling - Virginia, USA. Time control is 90 minutes for the entire game with a 30-second increment from move 1"
       },
       "round": {
-        "id": "qhAsMRVw",
-        "name": "Round 9",
-        "slug": "round-9",
-        "createdAt": 1744630776617,
+        "id": "oLB9bEg7",
+        "name": "Round 7",
+        "slug": "round-7",
+        "createdAt": 1744647264275,
+        "ongoing": true,
+        "startsAt": 1745179200000
+      }
+    },
+    {
+      "tour": {
+        "id": "mKFxQQ9I",
+        "name": "2025 Marshall Monthly U2400 | April",
+        "slug": "2025-marshall-monthly-u2400--april",
+        "info": {
+          "format": "5-round Swiss",
+          "website": "https://www.marshallchessclub.org/",
+          "location": "New York City, USA.",
+          "tc": "90' + 30\"/move",
+          "fideTc": "standard",
+          "timeZone": "America/New_York"
+        },
+        "createdAt": 1744890103865,
+        "url": "https://lichess.org/broadcast/2025-marshall-monthly-u2400--april/mKFxQQ9I",
+        "tier": 3,
+        "dates": [1745018100000, 1745185500000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:8h28uxaw:DeZ428NI.webp&w=800&sig=e8ddd10bfbc034d0f7070e23b9fb5a50302adbcb"
+      },
+      "round": {
+        "id": "Ie62O43H",
+        "name": "Round 5",
+        "slug": "round-5",
+        "createdAt": 1740165378793,
+        "ongoing": true,
+        "startsAt": 1745185500000
+      },
+      "group": "2025 Marshall Monthly U2400"
+    },
+    {
+      "tour": {
+        "id": "WBbVOnS5",
+        "name": "II ABERTO DO BRASIL RONDÔNIA 2025",
+        "slug": "ii-aberto-do-brasil-rondonia-2025",
+        "info": {
+          "website": "https://www.cbx.org.br/torneio/8508/ii-aberto-do-brasil-rondonia-std-2025",
+          "location": "Cacoal, Rondônia, Brazil",
+          "tc": "90 min + 30 sec / move",
+          "fideTc": "standard",
+          "timeZone": "America/Cuiaba",
+          "standings": "https://chess-results.com/tnr1115139.aspx?lan=10",
+          "format": "6-round Swiss"
+        },
+        "createdAt": 1743465295021,
+        "url": "https://lichess.org/broadcast/ii-aberto-do-brasil-rondonia-2025/WBbVOnS5",
+        "tier": 3,
+        "dates": [1744999200000, 1745193600000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:WBbVOnS5:ZNTlNc1c.webp&w=800&sig=a6bba24169b8cf1cedf0eeac4dbd660e854ab01a",
+        "description": "Este torneio é promovido pela Confederação Brasileira de Xadrez (CBX), aberto à participação de jogadores de Rondônia e estados vizinhos. A iniciativa busca fomentar o crescimento do xadrez na região Norte."
+      },
+      "round": {
+        "id": "1guAiQif",
+        "name": "Rodada 6",
+        "slug": "rodada-6",
+        "createdAt": 1743475986920,
+        "ongoing": true,
         "startsAt": 1745193600000
+      }
+    },
+    {
+      "tour": {
+        "id": "GEluoVXe",
+        "name": "The Påskturneringen 2025",
+        "slug": "the-paskturneringen-2025",
+        "info": {
+          "website": "https://www.schack08.se/paskturneringen/",
+          "players": "Seo, Söderström, Elmi, Falkevall",
+          "location": "Elite Grand Hotel, Norrköping, Sweden",
+          "tc": "Classical & Rapid",
+          "fideTc": "standard",
+          "timeZone": "Europe/Stockholm",
+          "standings": "https://www.schack08.se/paskturneringen/lottning-och-resultat/",
+          "format": "8-round Swiss"
+        },
+        "createdAt": 1744640404726,
+        "url": "https://lichess.org/broadcast/the-paskturneringen-2025/GEluoVXe",
+        "tier": 3,
+        "dates": [1744977600000, 1745218800000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:GEluoVXe:DUdp6600.webp&w=800&sig=bcfa4c8edcb0973febe310ee1a20970f9602d2df",
+        "description": "The **Påskturneringen 2025** is an 8-round open Swiss tournament, held from the 18th to the 21st of April in Norrköping, Sweden, and is part of the [Svenskt Grand Prix 2024/2025](https://schack.se/svenskt-grand-prix-2024-2025/).\r\n\r\nFor rounds 1-2, time control is 15 minutes with a 5-second increment from move one.\r\nFor rounds 3-8, time control is 90 minutes for 40 moves, followed by 30 minutes for the rest of the game, with a 30-second increment from move one.\r\n\r\n[Video Stream] (no audio) | [Livechess PGN] | [Svenskt Grand Prix Standings]\r\n\r\nPrevious editions: [2024] [2023] [2022]\r\n\r\n[Official Website]: https://schack08.se/paskturneringen\r\n[Video Stream]: https://youtube.com/playlist?list=PL-gGQ-qcPMDi1Xi83xv5ocLb_2_fHBDCe&si=AlT4XL6dxQYUQzin\r\n[Livechess PGN]: https://live.schack.se/paskturneringen/Paskturneringen2025.pgn\r\n[Svenskt Grand Prix Standings]: https://member.schack.se/ShowTournamentServlet?id=14213\r\n[2024]: https://lichess.org/broadcast/the-paskturneringen-2024/rP9kKUMi\r\n[2023]: https://lichess.org/broadcast/paskturneringen-2023/qF82IeNW\r\n[2022]: https://lichess.org/broadcast/paskturneringen-2022/7mmrNH4Q"
+      },
+      "round": {
+        "id": "MKU4Fnk7",
+        "name": "Rond 8",
+        "slug": "rond-8",
+        "createdAt": 1744641009601,
+        "startsAt": 1745218800000
       },
       "roundToLink": {
-        "id": "rsG1734c",
+        "id": "bGakH1if",
+        "name": "Rond 7",
+        "slug": "rond-7",
+        "createdAt": 1744640959916,
+        "finishedAt": 1745175687160,
+        "finished": true,
+        "startsAt": 1745157600000
+      }
+    },
+    {
+      "tour": {
+        "id": "YE89RmSq",
+        "name": "10ºFestival Internazionale di Scacchi Pasqua a Montesilvano",
+        "slug": "10festival-internazionale-di-scacchi-pasqua-a-montesilvano",
+        "info": {
+          "players": "Di Benedetto, Carnicelli, Zimina",
+          "location": "Montesilvano",
+          "tc": "90' + 30\"",
+          "fideTc": "standard",
+          "timeZone": "Europe/Rome",
+          "standings": "https://vesus.org/event/ZQpRNhMS",
+          "format": "Swiss"
+        },
+        "createdAt": 1744815274145,
+        "url": "https://lichess.org/broadcast/10festival-internazionale-di-scacchi-pasqua-a-montesilvano/YE89RmSq",
+        "tier": 3,
+        "dates": [1745000100000, 1745240400000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:YE89RmSq:eklS9kVv.webp&w=800&sig=b67bf63f1c23611054efbd11eae27ac981f1eb73"
+      },
+      "round": {
+        "id": "wf744rA7",
+        "name": "Round 5",
+        "slug": "round-5",
+        "createdAt": 1744815476357,
+        "startsAt": 1745218800000
+      },
+      "roundToLink": {
+        "id": "5e2swjsO",
+        "name": "Round 4",
+        "slug": "round-4",
+        "createdAt": 1744815447099,
+        "finishedAt": 1745174755070,
+        "finished": true,
+        "startsAt": 1745157600000
+      }
+    },
+    {
+      "tour": {
+        "id": "IiSb0b2v",
+        "name": "Danish Championship 2025 | Kandidatklassen",
+        "slug": "danish-championship-2025--kandidatklassen",
+        "info": {
+          "format": "7-round Swiss",
+          "website": "http://www.skak-dm.dk/",
+          "location": "Vendborg, Denmark",
+          "tc": "90 min / 40 moves + 30 min + 30 sec / move",
+          "fideTc": "standard",
+          "timeZone": "Europe/Copenhagen"
+        },
+        "createdAt": 1744072040896,
+        "url": "https://lichess.org/broadcast/danish-championship-2025--kandidatklassen/IiSb0b2v",
+        "tier": 3,
+        "dates": [1744735200000, 1745219400000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:jC1DYpOF:OvGsm1yv.webp&w=800&sig=8ba7127a3206c5200069e7ea8242612ce259935a"
+      },
+      "round": {
+        "id": "YQnqA1Al",
+        "name": "Round 7",
+        "slug": "round-7",
+        "createdAt": 1744071534125,
+        "startsAt": 1745219400000
+      },
+      "roundToLink": {
+        "id": "yDgIHkr5",
+        "name": "Round 6",
+        "slug": "round-6",
+        "createdAt": 1744071525606,
+        "finishedAt": 1745151940089,
+        "finished": true,
+        "startsAt": 1745133000000
+      },
+      "group": "Danish Championship 2025"
+    },
+    {
+      "tour": {
+        "id": "73e8BZiK",
+        "name": "1er Championnat de France de parties rapides par équipes",
+        "slug": "1er-championnat-de-france-de-parties-rapides-par-equipes",
+        "info": {
+          "format": "15-round Swiss for teams",
+          "website": "https://www.echecs.asso.fr/",
+          "location": "Cappelle-la-Grande",
+          "tc": "15 min + 3 sec / move",
+          "fideTc": "rapid",
+          "timeZone": "Europe/Paris"
+        },
+        "createdAt": 1744876083368,
+        "url": "https://lichess.org/broadcast/1er-championnat-de-france-de-parties-rapides-par-equipes/73e8BZiK",
+        "tier": 3,
+        "dates": [1745069400000, 1745584200000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:73e8BZiK:NM5i8uhs.webp&w=800&sig=4a6bb62846c2a0cc2b9d41f86a0b284d3c1823a7",
+        "teamTable": true
+      },
+      "round": {
+        "id": "84K6gYgi",
+        "name": "Round 13",
+        "slug": "round-13",
+        "createdAt": 1744876265076,
+        "startsAt": 1745220600000
+      },
+      "roundToLink": {
+        "id": "ctMjwROQ",
+        "name": "Round 12",
+        "slug": "round-12",
+        "createdAt": 1744876239662,
+        "finishedAt": 1745165547598,
+        "finished": true,
+        "startsAt": 1745163000000
+      }
+    },
+    {
+      "tour": {
+        "id": "OPHRBcXU",
+        "name": "Krefelder Osteropen 2025",
+        "slug": "krefelder-osteropen-2025",
+        "info": {
+          "website": "https://turm-krefeld.de/index.php/turniere/osteropen",
+          "location": "Krefeld",
+          "tc": "90 min / 40 moves + 15 min + 30 sec / move",
+          "fideTc": "standard",
+          "timeZone": "Europe/Berlin",
+          "standings": "https://chess-results.com/tnr1159019.aspx?art=1",
+          "format": "9-round Swiss"
+        },
+        "createdAt": 1744719592312,
+        "url": "https://lichess.org/broadcast/krefelder-osteropen-2025/OPHRBcXU",
+        "tier": 3,
+        "dates": [1744908300000, 1745329500000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:OPHRBcXU:0sk3Awdv.webp&w=800&sig=e8f99c1ff2e8fdcc0342bfbad1d41529eba957c2"
+      },
+      "round": {
+        "id": "XGcLyPzD",
         "name": "Round 8",
         "slug": "round-8",
-        "createdAt": 1744630762179,
-        "finishedAt": 1745140567144,
+        "createdAt": 1744719809767,
+        "startsAt": 1745223300000
+      },
+      "roundToLink": {
+        "id": "RCzS7dIF",
+        "name": "Round 7",
+        "slug": "round-7",
+        "createdAt": 1744719802058,
+        "finishedAt": 1745182469056,
         "finished": true,
-        "startsAt": 1745127000000
+        "startsAt": 1745156700000
+      }
+    },
+    {
+      "tour": {
+        "id": "sdc3jPDu",
+        "name": "The Dublin Easter IM norm 2025",
+        "slug": "the-dublin-easter-im-norm-2025",
+        "info": {
+          "website": "https://www.icu.ie/events/1962",
+          "location": "Talbot Hotel Stillorgan, Co.Dublin, Ireland",
+          "tc": "90 min + 30 sec / move",
+          "fideTc": "standard",
+          "timeZone": "Europe/Dublin",
+          "standings": "https://chess-results.com/tnr1159579.aspx",
+          "format": "10-player round-robin"
+        },
+        "createdAt": 1744899204624,
+        "url": "https://lichess.org/broadcast/the-dublin-easter-im-norm-2025/sdc3jPDu",
+        "tier": 3,
+        "dates": [1744898400000, 1745244000000],
+        "image": "https://image.lichess1.org/display?fmt=png&h=400&op=thumbnail&path=relay:sdc3jPDu:2wZUDKdp.png&w=800&sig=57b53dcfac362369ff12fd4ae46a412ff8718cdd"
+      },
+      "round": {
+        "id": "bsIDMCFK",
+        "name": "Round 8",
+        "slug": "round-8",
+        "createdAt": 1745057624953,
+        "startsAt": 1745226000000
+      },
+      "roundToLink": {
+        "id": "5MAHrGan",
+        "name": "Round 7",
+        "slug": "round-7",
+        "createdAt": 1745057600321,
+        "finishedAt": 1745174346887,
+        "finished": true,
+        "startsAt": 1745157600000
+      }
+    },
+    {
+      "tour": {
+        "id": "w8OAoJwV",
+        "name": "4NCL Easter Congress 2025 - Open",
+        "slug": "4ncl-easter-congress-2025-open",
+        "info": {
+          "website": "https://www.4ncl.co.uk/fide/information_easter25.htm",
+          "location": "Mercure Daventry Court Hotel, Sedgemoor Way, Daventry,  NN11 0SG.",
+          "tc": "90 min + 30 sec / move",
+          "fideTc": "standard",
+          "timeZone": "GB",
+          "standings": "https://chess-results.com/tnr1153967.aspx?art=1",
+          "format": "7-round Swiss"
+        },
+        "createdAt": 1744623610849,
+        "url": "https://lichess.org/broadcast/4ncl-easter-congress-2025-open/w8OAoJwV",
+        "tier": 3,
+        "dates": [1744984800000, 1745244000000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:w8OAoJwV:mCpeWDRu.webp&w=800&sig=751130fa1c2dcc0b53937c1231407de1666f23e1",
+        "description": "5th 4NCL Easter Congress\r\n\r\nFriday 18 April – Monday 21 April 2025\r\nMercure Daventry Court Hotel, Sedgemoor Way, Daventry, NN11 0SG\r\n\r\nThree Sections\r\nFIDE Rated Open\r\nFIDE Rated U2000\r\nFIDE Rated U1700\r\nAll sections (seven rounds)\r\n\r\nPrize fund £4,200\r\n\r\nPlaying Schedule\r\nRound 1.     Friday 15.00 - 19.00\r\nRound 2.     Saturday 10.00 - 14.00\r\nRound 3.     Saturday 15.00 - 19.00\r\nRound 4.     Sunday 10.00 - 14.00\r\nRound 5.     Sunday 15.00 - 19.00\r\nRound 6.     Monday 10.00 - 14.00\r\nRound 7.     Monday 15.00 - 19.00\r\n\t \r\nTwo ½ point byes may be taken in rounds 1–6.\r\n\r\nTime Control\r\nAll moves in 90 minutes plus 30 second increment per move from move 1.\r\nRe-pairing will take place 30 minutes after the start of a round. Players will be defaulted 30 minutes after the scheduled start of a round."
+      },
+      "round": {
+        "id": "XGb28a9N",
+        "name": "Round 6",
+        "slug": "round-6",
+        "createdAt": 1744623900241,
+        "startsAt": 1745226000000
+      },
+      "roundToLink": {
+        "id": "4vAzf64i",
+        "name": "Round 5",
+        "slug": "round-5",
+        "createdAt": 1744623876244,
+        "finishedAt": 1745172173776,
+        "finished": true,
+        "startsAt": 1745157600000
+      },
+      "group": "4NCL Easter Congress 2025"
+    },
+    {
+      "tour": {
+        "id": "kocLtUHI",
+        "name": "Uzbekistan Championship Finals | Men",
+        "slug": "uzbekistan-championship-finals--men",
+        "info": {
+          "location": "Qiziltepa District, Navoiy Region, Uzbekistan",
+          "tc": "90 min + 30 sec / move",
+          "fideTc": "standard",
+          "timeZone": "Asia/Samarkand",
+          "standings": "https://chess-results.com/tnr1162327.aspx",
+          "format": "16-player knock-out"
+        },
+        "createdAt": 1745011638724,
+        "url": "https://lichess.org/broadcast/uzbekistan-championship-finals--men/kocLtUHI",
+        "tier": 3,
+        "dates": [1745055900000, 1745745300000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:kocLtUHI:LqkSN0L4.webp&w=800&sig=b7c1f88eae14126d03ecaa8da516588812b32a31"
+      },
+      "round": {
+        "id": "Yeb3g1VN",
+        "name": "QF | Game 1",
+        "slug": "qf--game-1",
+        "createdAt": 1745012203790,
+        "startsAt": 1745226900000
+      },
+      "roundToLink": {
+        "id": "Q7Fi6OkX",
+        "name": "Round of 16 | Tiebreak",
+        "slug": "round-of-16--tiebreak",
+        "createdAt": 1745012114964,
+        "finishedAt": 1745181400089,
+        "finished": true,
+        "startsAt": 1745164800000
+      },
+      "group": "Uzbekistan Championship Finals"
+    },
+    {
+      "tour": {
+        "id": "AVDgzx7C",
+        "name": "3rd Maharashtra International Grandmaster 2025",
+        "slug": "3rd-maharashtra-international-grandmaster-2025",
+        "info": {
+          "location": "Pune, India",
+          "tc": "90 min + 30 sec / move",
+          "fideTc": "standard",
+          "timeZone": "Asia/Kolkata",
+          "standings": "https://chess-results.com/tnr1130076.aspx?art=1",
+          "format": "10-round Swiss"
+        },
+        "createdAt": 1745160943609,
+        "url": "https://lichess.org/broadcast/3rd-maharashtra-international-grandmaster-2025/AVDgzx7C",
+        "tier": 3,
+        "dates": [1745141400000, 1745832600000]
+      },
+      "round": {
+        "id": "HPVC38Gm",
+        "name": "Round 2",
+        "slug": "round-2",
+        "createdAt": 1745161075806,
+        "startsAt": 1745227800000
+      },
+      "roundToLink": {
+        "id": "CtkJryiQ",
+        "name": "Round 1",
+        "slug": "round-1",
+        "createdAt": 1745161037107,
+        "finishedAt": 1745161072089,
+        "finished": true,
+        "startsAt": 1745141400000
+      }
+    },
+    {
+      "tour": {
+        "id": "kbIUsnqS",
+        "name": "67th Southend Easter Chess Festival 2025 | GM Round Robin",
+        "slug": "67th-southend-easter-chess-festival-2025--gm-round-robin",
+        "info": {
+          "website": "https://southendchesscongress.org/",
+          "location": "Southend on Sea, Essex",
+          "tc": "G: 90 min + 30 sec",
+          "fideTc": "standard",
+          "timeZone": "Etc/UTC",
+          "standings": "https://chess-results.com/tnr1078871.aspx?lan=1&art=0&turdet=ALL&flag=30",
+          "format": "10 player Round-Robin"
+        },
+        "createdAt": 1744754149227,
+        "url": "https://lichess.org/broadcast/67th-southend-easter-chess-festival-2025--gm-round-robin/kbIUsnqS",
+        "tier": 3,
+        "dates": [1744882200000, 1745227800000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:kbIUsnqS:mDsTvKTy.webp&w=800&sig=f40937fa6ef76503326c172304554c527099120c",
+        "description": "*The tournament is sponsored by: [The Chess Trust](https://chesstrust.org.uk), [John Robinson Youth Chess Trust](https://johnrobinsonchess.org/),  [English Chess Federation](https://www.englishchess.org.uk/), [Friends of Chess](https://www.friendsofchess.org.uk/)*"
+      },
+      "round": {
+        "id": "h8mUgEkF",
+        "name": "Round 9",
+        "slug": "round-9",
+        "createdAt": 1744754283377,
+        "startsAt": 1745227800000
+      },
+      "roundToLink": {
+        "id": "lmLAjSUK",
+        "name": "Round 8",
+        "slug": "round-8",
+        "createdAt": 1744754274715,
+        "finishedAt": 1745176140214,
+        "finished": true,
+        "startsAt": 1745161200000
+      },
+      "group": "67th Southend Easter Chess Festival 2025"
+    },
+    {
+      "tour": {
+        "id": "p8HKzGiq",
+        "name": "Swiss Young Masters 2025",
+        "slug": "swiss-young-masters-2025",
+        "info": {
+          "website": "https://swissyoungmasters.ch/",
+          "location": "Basel, Switzerland",
+          "tc": "90 min / 40 moves + 30 min + 30 sec / move",
+          "fideTc": "standard",
+          "timeZone": "Europe/Zurich",
+          "standings": "https://chess-results.com/tnr1120907.aspx?art=1",
+          "format": "10-player round-robin"
+        },
+        "createdAt": 1741194428382,
+        "url": "https://lichess.org/broadcast/swiss-young-masters-2025/p8HKzGiq",
+        "tier": 3,
+        "dates": [1744976700000, 1745667900000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:p8HKzGiq:pWlkaq0a.webp&w=800&sig=cae7356bf9a7819d3a427cd24325ca5f9453ccce"
+      },
+      "round": {
+        "id": "lG63Dkr4",
+        "name": "Round 4",
+        "slug": "round-4",
+        "createdAt": 1741194660591,
+        "startsAt": 1745235900000
+      },
+      "roundToLink": {
+        "id": "X3kAB4mj",
+        "name": "Round 3",
+        "slug": "round-3",
+        "createdAt": 1741194654834,
+        "finishedAt": 1745167045945,
+        "finished": true,
+        "startsAt": 1745149500000
+      }
+    },
+    {
+      "tour": {
+        "id": "i6RjRMpi",
+        "name": "Finnish Championship 2025 | Open",
+        "slug": "finnish-championship-2025--open",
+        "info": {
+          "website": "https://www.shakkiliitto.fi/sm2025/",
+          "players": "IM Keinänen – IM Sipilä – IM Agopov – IM Köykkä",
+          "location": "Helsinki, Finland",
+          "tc": "90'/40 moves + 30' + 30''/move",
+          "fideTc": "standard",
+          "timeZone": "Europe/Helsinki",
+          "standings": "https://chess-results.com/tnr1155365.aspx?lan=18&turdet=ALL",
+          "format": "10-player round robin"
+        },
+        "createdAt": 1744293589775,
+        "url": "https://lichess.org/broadcast/finnish-championship-2025--open/i6RjRMpi",
+        "tier": 3,
+        "dates": [1744981200000, 1745658000000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:i6RjRMpi:hJPASbe7.webp&w=800&sig=d4c85360ca87d395883a9b9ddfc0675003fced93",
+        "description": "The **Finnish Championship 2025 | Open** is a 10-player round-robin, held from the 18th to the 26th of April in Helsinki, Finland.\r\n\r\nTime control is 90 minutes for 40 moves, followed by 30 minutes for the rest of the game, with a 30-second increment starting from move one.\r\n\r\n[Live commentary with NM Toni Pönniö & guests](https://www.twitch.tv/shakkilinna)\r\n[Official website](https://www.shakkiliitto.fi/sm2025/)\r\n[Players and results](https://chess-results.com/tnr1155365.aspx?lan=18&art=0&turdet=YES)"
+      },
+      "round": {
+        "id": "HWE0Tngj",
+        "name": "Round 4",
+        "slug": "round-4",
+        "createdAt": 1744293641446,
+        "startsAt": 1745240400000
+      },
+      "roundToLink": {
+        "id": "zrcSPZSL",
+        "name": "Round 3",
+        "slug": "round-3",
+        "createdAt": 1744293636635,
+        "finishedAt": 1745167464469,
+        "finished": true,
+        "startsAt": 1745154000000
+      },
+      "group": "Finnish Championship 2025"
+    },
+    {
+      "tour": {
+        "id": "4yldhcwQ",
+        "name": "Trophée Dalkia 2025",
+        "slug": "trophee-dalkia-2025",
+        "info": {
+          "website": "https://asnieres-sur-seine.fr/agenda/detail/un-tournoi-de-grands-maitres-pour-feter-les-10-ans-du-club-asnieres-le-grand-echiquier",
+          "players": "Moussard, Batsiashvili, Motylev, Grieve",
+          "location": "Asnières sur Seine, Paris, France",
+          "tc": "90 min / 40 moves + 30 min + 30 sec / move",
+          "fideTc": "standard",
+          "timeZone": "Europe/Paris",
+          "standings": "https://chess-results.com/tnr1103037.aspx?lan=1",
+          "format": "10-player round-robin"
+        },
+        "createdAt": 1743964699367,
+        "url": "https://lichess.org/broadcast/trophee-dalkia-2025/4yldhcwQ",
+        "tier": 3,
+        "dates": [1744985700000, 1745482500000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:4yldhcwQ:bzK0oYxg.webp&w=800&sig=ba09712755dc25994080abe1e14bde70983f60cf",
+        "description": "Les systèmes de départage des ex æquo sont dans l'ordre le « Sonneborn-Berger » puis le « Koya » puis la « performance »."
+      },
+      "round": {
+        "id": "YM64hgNx",
+        "name": "Round 5",
+        "slug": "round-5",
+        "createdAt": 1743964913923,
+        "startsAt": 1745241300000
+      },
+      "roundToLink": {
+        "id": "zE7UKa4q",
+        "name": "Round 4",
+        "slug": "round-4",
+        "createdAt": 1743964894604,
+        "finishedAt": 1745176634587,
+        "finished": true,
+        "startsAt": 1745158500000
       }
     },
     {
@@ -1036,10 +877,7 @@
         "createdAt": 1745149055945,
         "url": "https://lichess.org/broadcast/hungarian-youth-championship-2025--open/cE1XDV4L",
         "tier": 3,
-        "dates": [
-          1745241300000,
-          1745738100000
-        ],
+        "dates": [1745241300000, 1745738100000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:cE1XDV4L:kx1fR480.webp&w=800&sig=eb69ed713a4dd29729d92d708da2cfb21f482f59"
       },
       "round": {
@@ -1050,6 +888,83 @@
         "startsAt": 1745241300000
       },
       "group": "Hungarian Youth Championship 2025"
+    },
+    {
+      "tour": {
+        "id": "FEdZG0OL",
+        "name": "2025 Canadian Closed / Championnat Fermé du Canada | Closed",
+        "slug": "2025-canadian-closed--championnat-ferme-du-canada--closed",
+        "info": {
+          "website": "https://2025canclosed.square.site/",
+          "players": "GM Rodrigue-Lemieux, GM Preotu, IM Noritsyn, GM Sambuev",
+          "location": "Toronto, ON",
+          "tc": "90 min + 30 sec / move",
+          "fideTc": "standard",
+          "timeZone": "America/Toronto",
+          "standings": "https://chess-results.com/tnr1160278.aspx?lan=1",
+          "format": "9-round Swiss"
+        },
+        "createdAt": 1742579615313,
+        "url": "https://lichess.org/broadcast/2025-canadian-closed--championnat-ferme-du-canada--closed/FEdZG0OL",
+        "tier": 3,
+        "dates": [1744927200000, 1745330400000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:ioHEFapv:xWhLNI8w.webp&w=800&sig=5b1f1ee976e2798d295184e6cf1604cb2c455112",
+        "description": "The 2025 Canadian Closed is the national championships of Canada. The winner and runner up receives additional points for qualification to the Canadian team for the 2026 Olympiad.\r\n\r\nLe Championnat Fermé du Canada détermine le championnat national du Canada. Le gagnant et le joueur en 2eme place recevront des points supplémentaires pour la qualification pour l'équipe canadienne à l'Olympiade d'échecs de 2026."
+      },
+      "round": {
+        "id": "U9k2vjmo",
+        "name": "Round 7",
+        "slug": "round-7",
+        "createdAt": 1742565762851,
+        "startsAt": 1745244000000
+      },
+      "roundToLink": {
+        "id": "PL79cw0n",
+        "name": "Round 6",
+        "slug": "round-6",
+        "createdAt": 1742565751151,
+        "finishedAt": 1745176321083,
+        "finished": true,
+        "startsAt": 1745157600000
+      },
+      "group": "2025 Canadian Closed / Championnat Fermé du Canada"
+    },
+    {
+      "tour": {
+        "id": "fz20LLTF",
+        "name": "Berlin Single Championship 2025 Master Class",
+        "slug": "berlin-single-championship-2025-master-class",
+        "info": {
+          "website": "https://www.berlinerschachverband.de/berliner-einzelmeisterschaft-2025.html",
+          "location": "Berlin, Germany",
+          "tc": "90 min / 40 moves + 30 min + 30 sec / move",
+          "fideTc": "standard",
+          "timeZone": "Europe/Berlin",
+          "standings": "https://chess-results.com/tnr1119793.aspx?art=1",
+          "format": "9-round Swiss"
+        },
+        "createdAt": 1745013841235,
+        "url": "https://lichess.org/broadcast/berlin-single-championship-2025-master-class/fz20LLTF",
+        "tier": 3,
+        "dates": [1745075700000, 1745741700000],
+        "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:fz20LLTF:iyPnq8lG.webp&w=800&sig=6e79e1d1d736782da3923fdbe006dc5a17b85d37"
+      },
+      "round": {
+        "id": "n3besQfm",
+        "name": "Round 3",
+        "slug": "round-3",
+        "createdAt": 1745014058982,
+        "startsAt": 1745248500000
+      },
+      "roundToLink": {
+        "id": "BZEVFFvn",
+        "name": "Round 2",
+        "slug": "round-2",
+        "createdAt": 1745014030473,
+        "finishedAt": 1745180831563,
+        "finished": true,
+        "startsAt": 1745162100000
+      }
     },
     {
       "tour": {
@@ -1067,10 +982,7 @@
         "createdAt": 1744693276844,
         "url": "https://lichess.org/broadcast/v-festival-de-ajedrez-quart-de-poblet-2025--sub2400/oVUUgfuR",
         "tier": 3,
-        "dates": [
-          1745249400000,
-          1745595000000
-        ],
+        "dates": [1745249400000, 1745595000000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:oVUUgfuR:RukGMs60.webp&w=800&sig=90032748ff1e8e8c4ede078c7674e0a1690d649a"
       },
       "round": {
@@ -1100,10 +1012,7 @@
         "createdAt": 1737475730144,
         "url": "https://lichess.org/broadcast/sallskapets-km-2025/H1kPGLst",
         "tier": 3,
-        "dates": [
-          1737479127193,
-          1747756800000
-        ],
+        "dates": [1737479127193, 1747756800000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:H1kPGLst:4PcU1y2G.webp&w=800&sig=8c4e649721fef47e533d68e81283647896c0c419"
       },
       "round": {
@@ -1140,10 +1049,7 @@
         "createdAt": 1744009131672,
         "url": "https://lichess.org/broadcast/2025-sydney-international-open-championships/VqTd7T2w",
         "tier": 3,
-        "dates": [
-          1745369100000,
-          1745730900000
-        ],
+        "dates": [1745369100000, 1745730900000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:VqTd7T2w:rnhWUmVf.webp&w=800&sig=18315c6dc967a849248921d3ab4a47d3968eb26b",
         "description": "2025 Sydney International Open | 23rd to 27th April | $16,600 Total Prize Pool | Three Divisions"
       },
@@ -1173,10 +1079,7 @@
         "createdAt": 1745017222679,
         "url": "https://lichess.org/broadcast/campeonato-absoluto-de-euskadi-2025/0bp11T0v",
         "tier": 3,
-        "dates": [
-          1745420400000,
-          1745740800000
-        ],
+        "dates": [1745420400000, 1745740800000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:0bp11T0v:QyklH0Hs.webp&w=800&sig=f615d9f61da762a71514a13c16db60a48f8cfe62"
       },
       "round": {
@@ -1185,6 +1088,32 @@
         "slug": "round-1",
         "createdAt": 1745017963847,
         "startsAt": 1745420400000
+      }
+    },
+    {
+      "tour": {
+        "id": "HCj32qCp",
+        "name": "1st Nagaland Open Fide Rating Rapid 2025",
+        "slug": "1st-nagaland-open-fide-rating-rapid-2025",
+        "info": {
+          "location": "Nagaland, India",
+          "tc": "10 min + 5 sec / move",
+          "fideTc": "rapid",
+          "timeZone": "Asia/Kolkata",
+          "standings": "https://chess-results.com/tnr1158537.aspx?art=1",
+          "format": "9-round Swiss"
+        },
+        "createdAt": 1745190766032,
+        "url": "https://lichess.org/broadcast/1st-nagaland-open-fide-rating-rapid-2025/HCj32qCp",
+        "tier": 3,
+        "dates": [1745472720000, 1745561520000]
+      },
+      "round": {
+        "id": "KmN1SRy7",
+        "name": "Round 1",
+        "slug": "round-1",
+        "createdAt": 1745191058260,
+        "startsAt": 1745472720000
       }
     },
     {
@@ -1203,10 +1132,7 @@
         "createdAt": 1744718293206,
         "url": "https://lichess.org/broadcast/ecf-english-seniors-championship-over-65/mlJp4pFU",
         "tier": 3,
-        "dates": [
-          1745506800000,
-          1745834400000
-        ],
+        "dates": [1745506800000, 1745834400000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:mlJp4pFU:pf9HhSkX.webp&w=800&sig=6ccac6f2751aba33b4b02428396802b68dff1be3",
         "description": "The English Seniors Championships will take place between Thursday 24th April and Monday 28th April 2025 at the Holiday Inn Kenilworth-Warwick, 212 Abbey End, Kenilworth CV8 1ED\r\n\r\nEligibility\r\nOver 50 – players must be aged 50 or over on 31st December 2025; Over 65 – players must be aged 65 or over on 31st December 2025. Players must be born in England or have lived in England for at least the preceding 12 months. In addition, if they have a FIDE registration, it must be ENG. All players must be ECF Gold members or above.\r\n\r\nRating\r\nBoth sections will be FIDE-rated and ECF-rated\r\n\r\nFormat and playing schedule\r\nThere will be two competitions – 50+ and 65+. The congress will have a total of seven rounds over five days at 90 mins with 30 second increment time control, with playing schedule as follows for each of the championships –\r\nThursday – Round 1 – 16.00 – 20.00 \tSunday – Round 5 – 10.00 – 14.00\r\nFriday – Round 2 – 10.00 – 14.00 \tSunday – Round 6 – 16.00 – 20.00\r\nFriday – Round 3 – 16.00 – 20.00 \tMonday – Round 7 – 11.00 – 15.00\r\nSaturday – Round 4 – 14.00 – 18.00 \tPrizegiving following Round 7\r\n\r\nTime control\r\nAll moves in 90 minutes plus 30 second increment per move from move 1\r\n\r\nByes\r\nPlayers may take half-point byes in any round apart from Round 7, and up to two half-point byes can be requested."
       },
@@ -1236,10 +1162,7 @@
         "createdAt": 1745079810680,
         "url": "https://lichess.org/broadcast/campeonatos-de-andalucia-sub-8-a-sub-16-2025/4AQUaJE5",
         "tier": 3,
-        "dates": [
-          1745565300000,
-          1745746200000
-        ],
+        "dates": [1745565300000, 1745746200000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:4AQUaJE5:8VKThxKT.webp&w=800&sig=f4ad527f55b575a3a2a5d59b745cbbd947f7f0f5"
       },
       "round": {
@@ -1268,10 +1191,7 @@
         "createdAt": 1744889444932,
         "url": "https://lichess.org/broadcast/sardinia-world-chess-festival-2025/gDfAUwcT",
         "tier": 3,
-        "dates": [
-          1745673300000,
-          1746256500000
-        ]
+        "dates": [1745673300000, 1746256500000]
       },
       "round": {
         "id": "sRDI7joy",
@@ -1297,10 +1217,7 @@
         "createdAt": 1743783415883,
         "url": "https://lichess.org/broadcast/ascun-nodo-bogota-abril-2025--clasico/MRqSHsR9",
         "tier": 3,
-        "dates": [
-          1743793200000,
-          1745780400000
-        ],
+        "dates": [1743793200000, 1745780400000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:MRqSHsR9:9elJTISW.webp&w=800&sig=b2abd26389c1a1cec02ba3b4f70f711b9fb5eff0"
       },
       "round": {
@@ -1338,10 +1255,7 @@
         "createdAt": 1739795656299,
         "url": "https://lichess.org/broadcast/switzerland-team-championship-smm-2025/T5EKNamT",
         "tier": 3,
-        "dates": [
-          1742125500000,
-          1759050900000
-        ],
+        "dates": [1742125500000, 1759050900000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:T5EKNamT:MxsLwvrm.webp&w=800&sig=f194f5490032d788c9d7c3eb2dbaa7d7626d06c2"
       },
       "round": {
@@ -1379,10 +1293,7 @@
         "createdAt": 1743379114845,
         "url": "https://lichess.org/broadcast/acc-monday-nights-2025--autumn/Xxd34ija",
         "tier": 3,
-        "dates": [
-          1743401700000,
-          1747638900000
-        ],
+        "dates": [1743401700000, 1747638900000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:Xxd34ija:ksLGFdft.webp&w=800&sig=af05b3615131dd96ebfe95b2c76761085a47eadd"
       },
       "round": {
@@ -1419,10 +1330,7 @@
         "createdAt": 1744621868909,
         "url": "https://lichess.org/broadcast/10th-radt-invitational-in-memory-of-gregor-johann--group-a/LXXB79oh",
         "tier": 3,
-        "dates": [
-          1746174600000,
-          1746345600000
-        ],
+        "dates": [1746174600000, 1746345600000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:LXXB79oh:Hv3bO42d.webp&w=800&sig=7f9e3552446678cd155b3666ec89284e30dabc2b"
       },
       "round": {
@@ -1450,10 +1358,7 @@
         "createdAt": 1732222879309,
         "url": "https://lichess.org/broadcast/4ncl-2024-2025--division-1/fqkQKdui",
         "tier": 3,
-        "dates": [
-          1732370400000,
-          1746442800000
-        ],
+        "dates": [1732370400000, 1746442800000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=aaarmstark:relay:fqkQKdui:6QtmCfEk.webp&w=800&sig=17c6eba37ddebd5a6a8dd42dac9669fdebb8013d",
         "description": "There is a 15 minute delay between live play and the broadcast.",
         "teamTable": true
@@ -1492,10 +1397,7 @@
         "createdAt": 1730502337787,
         "url": "https://lichess.org/broadcast/hungarian-super-league-202425/fO37Sqpm",
         "tier": 3,
-        "dates": [
-          1730556900000,
-          1746951300000
-        ],
+        "dates": [1730556900000, 1746951300000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=linuxbrickie:relay:fO37Sqpm:keW1PCmx.webp&w=800&sig=48fb49d7b333a6fde867e6b02bde12a2b529fa61",
         "teamTable": true
       },
@@ -1532,10 +1434,7 @@
         "createdAt": 1726830479439,
         "url": "https://lichess.org/broadcast/dutch-meesterklasse-2024-2025/SPNqcX5P",
         "tier": 3,
-        "dates": [
-          1726916400000,
-          1746874800000
-        ],
+        "dates": [1726916400000, 1746874800000],
         "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=sergioglorias:relay:SPNqcX5P:bQcHO4dt.webp&w=800&sig=b4c58dd6295f8299de5659bef799200f063310d4",
         "description": "The Dutch Meesterklasse 2024-2025 is a 10-team round-robin tournament held from the 21st September 2024 to the 10th May 2025 in Netherlands.\r\n\r\nThe time control is 90 minutes for 40 moves, followed by 30 minutes for the rest of the game, with a 30-second increment beginning from move one.\r\n\r\n[Offical Website](https://schaakbond.nl/) | [Results](https://knsb.netstand.nl/divisions/view/499)",
         "teamTable": true
@@ -1565,38 +1464,157 @@
     "currentPageResults": [
       {
         "tour": {
-          "id": "hBllCGop",
-          "name": "II Abierto Internacional de Ajedrez Ciudad de Conil",
-          "slug": "ii-abierto-internacional-de-ajedrez-ciudad-de-conil",
+          "id": "N2uvRfIf",
+          "name": "2025 Charlotte Spring Norm | GM",
+          "slug": "2025-charlotte-spring-norm--gm",
           "info": {
-            "website": "https://clubdeajedrezconil.com/retransmision-en-directo/",
-            "players": "Luis Herrera Mellado, Jose Ramon Ortega Valle, Daniel Martin Macias",
-            "location": "Conil de la Frontera (Cádiz)",
+            "format": "10-player round-robin",
+            "website": "https://www.charlottechesscenter.org/events/norm",
+            "location": "Charlotte, North Carolina, United States",
+            "tc": "90 min + 30 sec / move",
+            "fideTc": "standard",
+            "timeZone": "America/New_York"
+          },
+          "createdAt": 1744822157530,
+          "url": "https://lichess.org/broadcast/2025-charlotte-spring-norm--gm/N2uvRfIf",
+          "tier": 3,
+          "dates": [1744841700000, 1745180100000],
+          "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:N2uvRfIf:SI5I2VrE.webp&w=800&sig=350b9de4e36e592edf73c042c3a026049484ff28"
+        },
+        "round": {
+          "id": "lazOPlwM",
+          "name": "Round 9",
+          "slug": "round-9",
+          "createdAt": 1744822732064,
+          "finishedAt": 1745195678750,
+          "finished": true,
+          "startsAt": 1745180100000,
+          "url": "https://lichess.org/broadcast/2025-charlotte-spring-norm--gm/round-9/lazOPlwM"
+        },
+        "group": "2025 Charlotte Spring Norm"
+      },
+      {
+        "tour": {
+          "id": "UTDP0wDE",
+          "name": "The Dublin International Easter events 2025",
+          "slug": "the-dublin-international-easter-events-2025",
+          "info": {
+            "fideTc": "standard",
+            "timeZone": "Etc/UTC",
+            "website": "https://www.icu.ie/events/1879"
+          },
+          "createdAt": 1744999172340,
+          "url": "https://lichess.org/broadcast/the-dublin-international-easter-events-2025/UTDP0wDE",
+          "tier": 3,
+          "dates": [1745001000000, 1745161200000],
+          "image": "https://image.lichess1.org/display?fmt=png&h=400&op=thumbnail&path=relay:UTDP0wDE:fEQYprXr.png&w=800&sig=b47d4180a3f3364409edcc99a4722913486c5978",
+          "description": "7 rounds \r\n2 sections - Open and 50+/65+s\r\nBoards 1-10 Open\r\nBoards 11-14 over 50 and over 65"
+        },
+        "round": {
+          "id": "y42Ik3mY",
+          "name": "Round 5",
+          "slug": "round-5",
+          "createdAt": 1745162243536,
+          "finishedAt": 1745176328948,
+          "finished": true,
+          "startsAt": 1745161200000,
+          "url": "https://lichess.org/broadcast/the-dublin-international-easter-events-2025/round-5/y42Ik3mY"
+        }
+      },
+      {
+        "tour": {
+          "id": "jftZLioc",
+          "name": "MAR DEL PLATA: Campeonatos Argentinos de Menores Cam25",
+          "slug": "mar-del-plata-campeonatos-argentinos-de-menores-cam25",
+          "info": {
+            "website": "https://federacionargentinadeajedrez.org/?page_id=8170",
+            "location": "Mar del Plata, Buenos Aires",
+            "tc": "60 min / 30 moves + 30 min",
+            "fideTc": "standard",
+            "timeZone": "America/Argentina/Buenos_Aires",
+            "standings": "https://chess-results.com/tnr1135484.aspx?art=1",
+            "format": "9-round Swiss"
+          },
+          "createdAt": 1744659841483,
+          "url": "https://lichess.org/broadcast/mar-del-plata-campeonatos-argentinos-de-menores-cam25/jftZLioc",
+          "tier": 3,
+          "dates": [1744725600000, 1745150400000],
+          "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:jftZLioc:pHfSg3v3.webp&w=800&sig=87148093022689bd42345471e8c3c3fb18c82ebf",
+          "description": "CAM25: Los Campeonatos Argentinos infantiles y juveniles se realizaran del 15 al 20 de abril en Mar del Plata\r\nLos Campeonatos Argentinos Infantiles y Juveniles, en las categorías Sub-8 a Sub-20, tanto Absoluto como Femenino, se llevarán a cabo del 15 al 20 de abril en la ciudad de Mar del Plata. Reconocida como una de las ciudades con mayor tradición ajedrecística del país, Mar del Plata se prepara para recibir a cientos de jóvenes talentos y sus familias en estos nuevos CAM25.\r\n \r\n15 al 20 de abril. Lugar de juego: Polideportivo Colinas de Peralta Ramos Mar del Plata, Buenos Aires."
+        },
+        "round": {
+          "id": "p3CRhRcw",
+          "name": "Round 8",
+          "slug": "round-8",
+          "createdAt": 1744704398189,
+          "finishedAt": 1745161306111,
+          "finished": true,
+          "startsAt": 1745150400000,
+          "url": "https://lichess.org/broadcast/mar-del-plata-campeonatos-argentinos-de-menores-cam25/round-8/p3CRhRcw"
+        }
+      },
+      {
+        "tour": {
+          "id": "jC1DYpOF",
+          "name": "Danish Championship 2025 | Landsholdsklassen",
+          "slug": "danish-championship-2025--landsholdsklassen",
+          "info": {
+            "format": "9-player round-robin",
+            "website": "http://www.skak-dm.dk/",
+            "players": "Sune Berg, Filip Boe, Jesper Søndergård, Martin",
+            "location": "Vendborg, Denmark",
+            "tc": "90 min / 40 moves + 30 min + 30 sec / move",
+            "fideTc": "standard",
+            "timeZone": "Europe/Copenhagen"
+          },
+          "createdAt": 1744071346948,
+          "url": "https://lichess.org/broadcast/danish-championship-2025--landsholdsklassen/jC1DYpOF",
+          "tier": 3,
+          "dates": [1744459200000, 1745143200000],
+          "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:jC1DYpOF:OvGsm1yv.webp&w=800&sig=8ba7127a3206c5200069e7ea8242612ce259935a"
+        },
+        "round": {
+          "id": "1N1SpYME",
+          "name": "Round 9",
+          "slug": "round-9",
+          "createdAt": 1744071585588,
+          "finishedAt": 1745161002980,
+          "finished": true,
+          "startsAt": 1745143200000,
+          "url": "https://lichess.org/broadcast/danish-championship-2025--landsholdsklassen/round-9/1N1SpYME"
+        },
+        "group": "Danish Championship 2025"
+      },
+      {
+        "tour": {
+          "id": "aTcjWkso",
+          "name": "CAMPIONATO GALEGO Absoluto 2025",
+          "slug": "campionato-galego-absoluto-2025",
+          "info": {
+            "website": "https://www.fegaxa.org/",
+            "location": "PADRÓN ( A CORUÑA )",
             "tc": "90 min + 30 sec / move",
             "fideTc": "standard",
             "timeZone": "Europe/Madrid",
-            "standings": "https://info64.org/ii-abierto-internacional-de-ajedrez-ciudad-de-conil/standings",
-            "format": "7-rounds Swiss"
+            "standings": "https://info64.org/campionato-galego-absoluto-open-2025",
+            "format": "8-round Swiss"
           },
-          "createdAt": 1744615470511,
-          "url": "https://lichess.org/broadcast/ii-abierto-internacional-de-ajedrez-ciudad-de-conil/hBllCGop",
+          "createdAt": 1743530778103,
+          "url": "https://lichess.org/broadcast/campionato-galego-absoluto-2025/aTcjWkso",
           "tier": 3,
-          "dates": [
-            1744815600000,
-            1745134200000
-          ],
-          "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:hBllCGop:CXcu4a2q.webp&w=800&sig=575cc20b227a156a63ad41ba90cdc87e3d3d6119",
-          "description": "Torneo valedero para ELO FIDE Standard y FADA.\r\n\r\n7 rondas - Ritmo 90 minutos + 30 segungos\r\n\r\nhttps://clubdeajedrezconil.com/torneos/ii-abierto-internacional-de-ajedrez-ciudad-de-conil/"
+          "dates": [1744876800000, 1745157600000],
+          "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:aTcjWkso:Jnd053vc.webp&w=800&sig=7d1192d4d4b91fdfeb98aaae0698b681d69b2e86",
+          "description": "Campeonatos Gallegos  2025 «Xunta de Galicia» a celebrar en el Hotel Scala (Padrón – A Coruña).\r\n\r\n***\r\n\r\nCampeonatos Gallegos 2024  [U8](https://lichess.org/broadcast/galician-youth-championship-2024--u8/round-1/neKCfUwa) | [U10](https://lichess.org/broadcast/campionato-gallego-sub-10/round-1/OZLMmGt3) | [U12](https://lichess.org/broadcast/campionato-gallego-sub-12/round-1/y9mNWAbB) | [U14](https://lichess.org/broadcast/galician-youth-championship-2024--u14/ronda-1/SkbrfA1i) |\r\n[U16](https://lichess.org/broadcast/campionato-gallego-sub-16-2024/round-1/KNANgM3Z) | [U18](https://lichess.org/broadcast/galician-youth-championship-2024--u18/ronda-1/Cgj1vS1S) | [ABS](https://lichess.org/broadcast/campeonato-gallego-absoluto-feminino-veteranos/round-1/LdfwRnUV) |\r\n\r\n\r\n\r\n![image](https://i.ibb.co/wrTL3K9/Deporte-Galego-III.jpg) ![image](https://i.ibb.co/jH5W5yG/FegaxaII.jpg)"
         },
         "round": {
-          "id": "S7BtTKaf",
-          "name": "Round 7",
-          "slug": "round-7",
-          "createdAt": 1744618195451,
-          "finishedAt": 1745149090958,
+          "id": "glAoXO0Z",
+          "name": "Ronda 8",
+          "slug": "ronda-8",
+          "createdAt": 1743610919802,
+          "finishedAt": 1745177886443,
           "finished": true,
-          "startsAt": 1745134200000,
-          "url": "https://lichess.org/broadcast/ii-abierto-internacional-de-ajedrez-ciudad-de-conil/round-7/S7BtTKaf"
+          "startsAt": 1745157600000,
+          "url": "https://lichess.org/broadcast/campionato-galego-absoluto-2025/ronda-8/glAoXO0Z"
         }
       },
       {
@@ -1615,10 +1633,7 @@
           "createdAt": 1743862142096,
           "url": "https://lichess.org/broadcast/fagernes-chess-international--gm/3jp1uowM",
           "tier": 3,
-          "dates": [
-            1744558200000,
-            1745132400000
-          ],
+          "dates": [1744558200000, 1745132400000],
           "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:3jp1uowM:NUqiuQmv.webp&w=800&sig=07239a34861a7819cf485eb96ce5f2cc2d855f72"
         },
         "round": {
@@ -1632,6 +1647,37 @@
           "url": "https://lichess.org/broadcast/fagernes-chess-international--gm/round-9/JxDb9iaQ"
         },
         "group": "Fagernes Chess International"
+      },
+      {
+        "tour": {
+          "id": "s6v7rV0e",
+          "name": "XVII Memorial Pedro Lezcano Montalvo 2025",
+          "slug": "xvii-memorial-pedro-lezcano-montalvo-2025",
+          "info": {
+            "website": "https://grancanariaajedrez.es/",
+            "location": "Vecindario, Canary Islands, Spain",
+            "tc": "90 min + 30 sec / move",
+            "fideTc": "standard",
+            "timeZone": "Atlantic/Canary",
+            "standings": "https://chess-results.com/tnr1099200.aspx?art=1",
+            "format": "9-round Swiss"
+          },
+          "createdAt": 1744445758352,
+          "url": "https://lichess.org/broadcast/xvii-memorial-pedro-lezcano-montalvo-2025/s6v7rV0e",
+          "tier": 3,
+          "dates": [1744473600000, 1745139600000],
+          "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:s6v7rV0e:n1adLLUm.webp&w=800&sig=7bff33343ce91922f48134f7f20a3565772a04b2"
+        },
+        "round": {
+          "id": "BXmrHeJO",
+          "name": "Round 9",
+          "slug": "round-9",
+          "createdAt": 1744445877874,
+          "finishedAt": 1745155217704,
+          "finished": true,
+          "startsAt": 1745139600000,
+          "url": "https://lichess.org/broadcast/xvii-memorial-pedro-lezcano-montalvo-2025/round-9/BXmrHeJO"
+        }
       },
       {
         "tour": {
@@ -1651,10 +1697,7 @@
           "createdAt": 1744557243584,
           "url": "https://lichess.org/broadcast/51-open-chess-la-roda/rEgA7bhz",
           "tier": 3,
-          "dates": [
-            1744732800000,
-            1745132400000
-          ],
+          "dates": [1744732800000, 1745132400000],
           "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:rEgA7bhz:FVfWFCug.webp&w=800&sig=6852633044aee2ad281c401cd1125007e012df84",
           "description": "The 51st La Roda Open is a 9-round Swiss tournament held from the 15th to the 20th of April in La Roda, Spain.\r\n\r\nThe total prize fund is €20,000."
         },
@@ -1671,36 +1714,35 @@
       },
       {
         "tour": {
-          "id": "s6v7rV0e",
-          "name": "XVII Memorial Pedro Lezcano Montalvo 2025",
-          "slug": "xvii-memorial-pedro-lezcano-montalvo-2025",
+          "id": "hBllCGop",
+          "name": "II Abierto Internacional de Ajedrez Ciudad de Conil",
+          "slug": "ii-abierto-internacional-de-ajedrez-ciudad-de-conil",
           "info": {
-            "website": "https://grancanariaajedrez.es/",
-            "location": "Vecindario, Canary Islands, Spain",
+            "website": "https://clubdeajedrezconil.com/retransmision-en-directo/",
+            "players": "Luis Herrera Mellado, Jose Ramon Ortega Valle, Daniel Martin Macias",
+            "location": "Conil de la Frontera (Cádiz)",
             "tc": "90 min + 30 sec / move",
             "fideTc": "standard",
-            "timeZone": "Atlantic/Canary",
-            "standings": "https://chess-results.com/tnr1099200.aspx?art=1",
-            "format": "9-round Swiss"
+            "timeZone": "Europe/Madrid",
+            "standings": "https://info64.org/ii-abierto-internacional-de-ajedrez-ciudad-de-conil/standings",
+            "format": "7-rounds Swiss"
           },
-          "createdAt": 1744445758352,
-          "url": "https://lichess.org/broadcast/xvii-memorial-pedro-lezcano-montalvo-2025/s6v7rV0e",
+          "createdAt": 1744615470511,
+          "url": "https://lichess.org/broadcast/ii-abierto-internacional-de-ajedrez-ciudad-de-conil/hBllCGop",
           "tier": 3,
-          "dates": [
-            1744473600000,
-            1745139600000
-          ],
-          "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:s6v7rV0e:n1adLLUm.webp&w=800&sig=7bff33343ce91922f48134f7f20a3565772a04b2"
+          "dates": [1744815600000, 1745134200000],
+          "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:hBllCGop:CXcu4a2q.webp&w=800&sig=575cc20b227a156a63ad41ba90cdc87e3d3d6119",
+          "description": "Torneo valedero para ELO FIDE Standard y FADA.\r\n\r\n7 rondas - Ritmo 90 minutos + 30 segungos\r\n\r\nhttps://clubdeajedrezconil.com/torneos/ii-abierto-internacional-de-ajedrez-ciudad-de-conil/"
         },
         "round": {
-          "id": "BXmrHeJO",
-          "name": "Round 9",
-          "slug": "round-9",
-          "createdAt": 1744445877874,
-          "finishedAt": 1745155217704,
+          "id": "S7BtTKaf",
+          "name": "Round 7",
+          "slug": "round-7",
+          "createdAt": 1744618195451,
+          "finishedAt": 1745149090958,
           "finished": true,
-          "startsAt": 1745139600000,
-          "url": "https://lichess.org/broadcast/xvii-memorial-pedro-lezcano-montalvo-2025/round-9/BXmrHeJO"
+          "startsAt": 1745134200000,
+          "url": "https://lichess.org/broadcast/ii-abierto-internacional-de-ajedrez-ciudad-de-conil/round-7/S7BtTKaf"
         }
       },
       {
@@ -1718,9 +1760,7 @@
           "createdAt": 1745068752569,
           "url": "https://lichess.org/broadcast/pawns-and-punches-a-night-of-chessboxing/kBkE6368",
           "tier": 3,
-          "dates": [
-            1745103600000
-          ],
+          "dates": [1745103600000],
           "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:kBkE6368:cOjBsfWe.webp&w=800&sig=94b881b55a1a0de08161055541148b15d5d82d7b"
         },
         "round": {
@@ -1753,9 +1793,7 @@
           "createdAt": 1744582049304,
           "url": "https://lichess.org/broadcast/i-campeonato-de-xadrez-mentes-brilhantes-x/hXmoMHSM",
           "tier": 3,
-          "dates": [
-            1745069400000
-          ],
+          "dates": [1745069400000],
           "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:hXmoMHSM:2E7driDo.webp&w=800&sig=e920d9fe82b719755929eef946b1cb8e745a5e4b",
           "description": "1º Campeonato Mentes Brilhantes  - Uma grande oportunidade para testar suas habilidades, evoluir no jogo e encarar partidas emocionantes. Este evento contará com dois torneios: Torneio Principal – Mestres dos Tabuleiros: Aberto a todos os jogadores, valendo pontuação no circuito e rating interno. Torneio Classificatório Rumo à Elite: Um desafio exclusivo no sistema Schuring (todos contra todos), onde os jogadores competem por uma vaga entre os Mestres dos Tabuleiros no campeonato!\r\n\r\nXADREZ PARA TODOS!!!"
         },
@@ -1786,10 +1824,7 @@
           "createdAt": 1744213092602,
           "url": "https://lichess.org/broadcast/campeonato-uruguayo-2025--final-absoluta/3QH3rFu2",
           "tier": 3,
-          "dates": [
-            1744401600000,
-            1745085600000
-          ],
+          "dates": [1744401600000, 1745085600000],
           "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:3QH3rFu2:pik9bW2q.webp&w=800&sig=5c647e16ad9b7472577b153dd9403520b1809698"
         },
         "round": {
@@ -1822,10 +1857,7 @@
           "createdAt": 1741888283874,
           "url": "https://lichess.org/broadcast/54-abierto-internacional-ciudad-de-mar-del-plata/UmEX7nBu",
           "tier": 3,
-          "dates": [
-            1744488000000,
-            1745085600000
-          ],
+          "dates": [1744488000000, 1745085600000],
           "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:UmEX7nBu:e2MhT0Zr.webp&w=800&sig=c047dfa931ff30bf0365be47a6501f5ab4388d6b",
           "description": "La Edición 54 del Abierto Internacional Ciudad de Mar del Plata se jugará del 12 al 19 de abril, contará con $4.000.0000 en Premios y será parte del Cierre Oficial de los actos conmemorativos por el Centenario de la FIDE.\r\nSe realizará en el Polideportivo Colinas de Peralta Ramos.\r\n¡Te esperamos para ser parte del Abierto Internacional con más tradición de Sudamérica!\r\nAccede toda la información nuestra web:\r\n\r\n https://mdpajedrez.ar/abierto\r\n\r\nWhatsapp https://wa.me/5492233427758\r\nCorreo electrónico: info@mdpajedrez.ar"
         },
@@ -1857,9 +1889,7 @@
           "createdAt": 1743195214896,
           "url": "https://lichess.org/broadcast/tunnelvision-xxxi/5nr8nAEU",
           "tier": 3,
-          "dates": [
-            1745073000000
-          ],
+          "dates": [1745073000000],
           "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:5nr8nAEU:z6ZekFce.webp&w=800&sig=33b7151f606227e74b563ae76ca38c6626d1c8a4"
         },
         "round": {
@@ -1890,10 +1920,7 @@
           "createdAt": 1744621289567,
           "url": "https://lichess.org/broadcast/subzonal-232-medellin-2025--absoluto/49tsAPpZ",
           "tier": 4,
-          "dates": [
-            1744642800000,
-            1745073300000
-          ],
+          "dates": [1744642800000, 1745073300000],
           "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:49tsAPpZ:QL03Mp7k.webp&w=800&sig=0a9179b5f3e017fb118d4f2971e8e3bf7b07c620"
         },
         "round": {
@@ -1926,10 +1953,7 @@
           "createdAt": 1744526221354,
           "url": "https://lichess.org/broadcast/lxx-campeonato-abierto-mexicano-queretaro-2025--internacional/i96kIc2a",
           "tier": 4,
-          "dates": [
-            1744672200000,
-            1745078400000
-          ],
+          "dates": [1744672200000, 1745078400000],
           "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:i96kIc2a:yoebyHcb.webp&w=800&sig=47f91933e3c8be392e2b54d6d19a52da7b3adcf7",
           "description": "The **LXX Campeonato Abierto Mexicano \"Querétaro 2025\"** is a 9-round Swiss, held from the 14th to the 19st of April in Querétaro, Mexico.\r\n\r\nTime control is 90 minutes for the entire game with a 30-second increment from move 1.\r\n\r\n[Official Website](https://fenamac.info) | [Results](https://chess-results.com/tnr1095791.aspx?lan=2&art=1)\r\n\r\n---"
         },
@@ -1961,10 +1985,7 @@
           "createdAt": 1744651145885,
           "url": "https://lichess.org/broadcast/campeonato-subzonal-231-2025--absoluto/Sui6RX96",
           "tier": 3,
-          "dates": [
-            1744646400000,
-            1745074800000
-          ],
+          "dates": [1744646400000, 1745074800000],
           "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:Sui6RX96:iZrTAaZg.webp&w=800&sig=237dcc01bd1e058878c17172e635f2a822e14669"
         },
         "round": {
@@ -1996,10 +2017,7 @@
           "createdAt": 1744709657757,
           "url": "https://lichess.org/broadcast/i-open-ajedrez-cofrades-sub-1800-talavera/SFOl2xv9",
           "tier": 3,
-          "dates": [
-            1744876800000,
-            1745073000000
-          ],
+          "dates": [1744876800000, 1745073000000],
           "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:SFOl2xv9:2JITNrQX.webp&w=800&sig=70c4a302dc882c083d84e574af923df0f945557f",
           "description": "## I Open Ajedrez Cofrades Sub-1800 Talavera de la Reina\r\nDel 17 al 19 de abril de 2025\r\n\r\nEl Club Eborajedrez-Aqualia organiza el I Open Ajedrez Cofrades Talavera de la Reina Sub-1800 con el patrocinio del Ayuntamiento de Talavera de la Reina, el Organismo Autónomo Local de Cultura de Talavera de la Reina (OAL Cultura), la Concejalía de Deportes de Talavera de la Reina y la Junta de Cofradías y Hermandades de Talavera de la Reina.\r\n\r\nTorneo válido para Elo FIDE Estándar."
         },
@@ -2030,10 +2048,7 @@
           "createdAt": 1744305237081,
           "url": "https://lichess.org/broadcast/92-pfalzischer-schachkongress-mta/h68ImohB",
           "tier": 3,
-          "dates": [
-            1744396200000,
-            1745047745249
-          ],
+          "dates": [1744396200000, 1745047745249],
           "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:h68ImohB:Oi9WkSfw.webp&w=800&sig=bccbf54584af19352aeb4cc025d851469f71ce49",
           "description": "92. Pfälzischer Schachkongress in Ramstein-Miesenbach"
         },
@@ -2066,10 +2081,7 @@
           "createdAt": 1744457783648,
           "url": "https://lichess.org/broadcast/ljem-2025-schleswig-holstein-u18/spC0BuGP",
           "tier": 3,
-          "dates": [
-            1744546500000,
-            1745044200000
-          ],
+          "dates": [1744546500000, 1745044200000],
           "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:spC0BuGP:fVZgodmT.webp&w=800&sig=19cfa6f67d4f740a9832f42f56cdea8f28e98049",
           "description": "Bei den Landesjugend-Einzelmeisterschaften Schleswig-Holstein werden die Landesmeister und Landesmeisterinnen der Altersklassen U10 bis U18 ermittelt. Das Turnier findet in Neumünster statt und wird über neun Runden nach Schweizer System gespielt. Die Bedenkzeit beträgt 90 Minuten für die gesamte Partie, zuzüglich 30 Sekunden pro Zug (Fischer-Modus). Nach dem 40. Zug erhalten die Spielerinnen und Spieler zusätzlich 30 Minuten (In der U10(/w)/U12(/w) mit 75min/Gesamt).  Im Rahmen der Meisterschaft werden außerdem die Qualifikationsplätze für die Deutsche Jugend-Einzelmeisterschaft 2025 ausgespielt.\r\n\r\nTurnierergebnisse (https://www.sjsh.de/turniere/ljem/)\r\n\r\nAt the Schleswig-Holstein Youth Chess Championship, the state champions in the age categories U10 to U18 will be determined. The tournament takes place in Neumünster and is played over nine rounds using the Swiss system. The time control is 90 minutes for the entire game, plus 30 seconds increment per move (Fischer mode). After move 40, each player receives an additional 30 minutes (U10(/w)/U12(/w) with 75min/allo). In addition, the tournament serves as the qualifier for the 2025 German Youth Chess Championship.\r\n\r\nResults (https://www.sjsh.de/turniere/ljem/)"
         },
@@ -2101,10 +2113,7 @@
           "createdAt": 1744958125713,
           "url": "https://lichess.org/broadcast/khasdar-chashak-fide-rapid-rating-chess-tournament/tSFqg5Ql",
           "tier": 3,
-          "dates": [
-            1744957800000,
-            1745055000000
-          ]
+          "dates": [1744957800000, 1745055000000]
         },
         "round": {
           "id": "4rbYDS11",
@@ -2133,10 +2142,7 @@
           "createdAt": 1743631219772,
           "url": "https://lichess.org/broadcast/46th-rhineland-championship-2025--meister-a/HTXsREpd",
           "tier": 3,
-          "dates": [
-            1744444800000,
-            1745049600000
-          ],
+          "dates": [1744444800000, 1745049600000],
           "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:HTXsREpd:TAnZMXyC.webp&w=800&sig=f2429fb626a5da781a1b211722ea0ded96263127"
         },
         "round": {
@@ -2167,10 +2173,7 @@
           "createdAt": 1744397733364,
           "url": "https://lichess.org/broadcast/ljem-2025-niedersachsen-open/3ifBok7E",
           "tier": 3,
-          "dates": [
-            1744460100000,
-            1744957800000
-          ],
+          "dates": [1744460100000, 1744957800000],
           "image": "https://image.lichess1.org/display?fmt=png&h=400&op=thumbnail&path=relay:3ifBok7E:4yqeSC0I.png&w=800&sig=b0e31977bc92b529b53eaf3fc7d0fe7d558b1e07",
           "description": "Bei den Landesjugend-Einzelmeisterschaften Niedersachsen werden die Landesmeister und Landesmeisterinnen der Altersklassen U10 bis U18 ermittelt. Das Turnier findet in Rotenburg an der Wümme statt und wird über neun Runden nach Schweizer System gespielt. Die Bedenkzeit beträgt 90 Minuten für die gesamte Partie, zuzüglich 30 Sekunden pro Zug (Fischer-Modus). Nach dem 40. Zug erhalten die Spielerinnen und Spieler zusätzlich 30 Minuten. Im Rahmen der Meisterschaft werden außerdem die Qualifikationsplätze für die Deutsche Jugend-Einzelmeisterschaft 2025 ausgespielt. Das Turnier wird live auf Twitch kommentiert (https://www.twitch.tv/nsvschach).\r\n\r\nTurnierergebnisse (https://www.nsj-online.de/wordpress/einzelturniere/)\r\n\r\n***\r\n\r\nAt the Lower Saxony Youth Chess Championship, the state champions in the age categories U10 to U18 will be determined. The tournament takes place in Rotenburg an der Wümme and is played over nine rounds using the Swiss system. The time control is 90 minutes for the entire game, plus 30 seconds increment per move (Fischer mode). After move 40, each player receives an additional 30 minutes. In addition, the tournament serves as the qualifier for the 2025 German Youth Chess Championship. The event will be broadcast with live commentary on Twitch (https://www.twitch.tv/nsvschach).\r\n\r\nResults (https://www.nsj-online.de/wordpress/einzelturniere/)"
         },
@@ -2202,10 +2205,7 @@
           "createdAt": 1744275537749,
           "url": "https://lichess.org/broadcast/2nd-namma-bengaluru-international-grandmasters-open-2025--category-a/cf6od367",
           "tier": 3,
-          "dates": [
-            1744277400000,
-            1744948800000
-          ],
+          "dates": [1744277400000, 1744948800000],
           "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:cf6od367:hA1bNiWO.webp&w=800&sig=33721e245f89680fc479bdfc132fbe54bec8a384"
         },
         "round": {
@@ -2219,181 +2219,6 @@
           "url": "https://lichess.org/broadcast/2nd-namma-bengaluru-international-grandmasters-open-2025--category-a/round-10/7ovSDq11"
         },
         "group": "2nd Namma Bengaluru International Grandmasters Open 2025"
-      },
-      {
-        "tour": {
-          "id": "BMDR2f9z",
-          "name": "Piraeus GM Norm Tournament 'BOGDANOS MEMORIAL'",
-          "slug": "piraeus-gm-norm-tournament-bogdanos-memorial",
-          "info": {
-            "website": "https://piraikoschess.gr/en/",
-            "location": "Piraeus",
-            "tc": "90 min / 40 moves + 30 min + 30 sec / move",
-            "fideTc": "standard",
-            "timeZone": "Europe/Athens",
-            "standings": "https://chess-results.com/tnr1099347.aspx?art=1",
-            "format": "Round Robin"
-          },
-          "createdAt": 1744311884873,
-          "url": "https://lichess.org/broadcast/piraeus-gm-norm-tournament-bogdanos-memorial/BMDR2f9z",
-          "tier": 3,
-          "dates": [
-            1744380900000,
-            1744964100000
-          ],
-          "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:BMDR2f9z:j219JvGS.webp&w=800&sig=9e4d2a1a420d07f61a0d6ca539bdf0fe1f5c6877"
-        },
-        "round": {
-          "id": "QbowxU9N",
-          "name": "Round 9",
-          "slug": "round-9",
-          "createdAt": 1744312457380,
-          "finishedAt": 1744966253521,
-          "finished": true,
-          "startsAt": 1744964100000,
-          "url": "https://lichess.org/broadcast/piraeus-gm-norm-tournament-bogdanos-memorial/round-9/QbowxU9N"
-        }
-      },
-      {
-        "tour": {
-          "id": "NyEtGbmc",
-          "name": "FIDE World Cadet & Youth Rapid & Blitz Championships 2025 | Blitz Open U18",
-          "slug": "fide-world-cadet--youth-rapid--blitz-championships-2025--blitz-open-u18",
-          "info": {
-            "website": "https://wcyrb2025.com/",
-            "location": "Rhodes, Greece",
-            "tc": "5 min + 3 sec / move",
-            "fideTc": "blitz",
-            "timeZone": "Europe/Athens",
-            "standings": "https://chess-results.com/tnr1146290.aspx",
-            "format": "11-round Swiss"
-          },
-          "createdAt": 1744743386404,
-          "url": "https://lichess.org/broadcast/fide-world-cadet--youth-rapid--blitz-championships-2025--blitz-open-u18/NyEtGbmc",
-          "tier": 4,
-          "dates": [
-            1744804800000,
-            1744891200000
-          ],
-          "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:UDGvSrTj:5l9y5YLt.webp&w=800&sig=fb0b4798a5ff39b6403296a379be9d117edff7fa"
-        },
-        "round": {
-          "id": "AOegI0fe",
-          "name": "Round 11",
-          "slug": "round-11",
-          "createdAt": 1744743212839,
-          "finishedAt": 1744904259916,
-          "finished": true,
-          "startsAt": 1744903219336,
-          "startsAfterPrevious": true,
-          "url": "https://lichess.org/broadcast/fide-world-cadet--youth-rapid--blitz-championships-2025--blitz-open-u18/round-11/AOegI0fe"
-        },
-        "group": "FIDE World Cadet & Youth Rapid & Blitz Championships 2025"
-      },
-      {
-        "tour": {
-          "id": "tAtQUOVF",
-          "name": "3rd Pafos International Chess Tournament",
-          "slug": "3rd-pafos-international-chess-tournament",
-          "info": {
-            "website": "http://www.pafoschess.com/",
-            "players": "Postny, Kelires, Poetsch, Knaak",
-            "location": "Attikon & Palia Ilektriki",
-            "tc": "90'/40m + 15'/end & 30\"/m",
-            "fideTc": "standard",
-            "timeZone": "Asia/Nicosia",
-            "standings": "https://chess-results.com/tnr1148951.aspx?lan=1",
-            "format": "9-Round Swiss"
-          },
-          "createdAt": 1743745504852,
-          "url": "https://lichess.org/broadcast/3rd-pafos-international-chess-tournament/tAtQUOVF",
-          "tier": 3,
-          "dates": [
-            1744378200000,
-            1744873200000
-          ],
-          "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:tAtQUOVF:7yEeocwt.webp&w=800&sig=28a259dcc8c22c58315f34a51ea5fdf1f394d810",
-          "description": "##  3rd Pafos International Open Chess Tournament  \r\n *Pafos, Cyprus* |  *April 11–17, 2025*  \r\n [Official Announcement](https://www.pafoschess.com/announcement/)\r\n\r\n---\r\n\r\n###  Organized by:\r\n- **Pafos Chess Club** & **Municipality of Pafos**\r\n- Under the auspices of the **Cyprus Chess Federation**\r\n\r\n---\r\n\r\n###  Tournament Format:\r\n- **9-round Swiss System**\r\n- **2 Rating Groups**:\r\n  - **Group A**: Open to players **rated 1800+**\r\n  - **Group B**: Open to players **rated <1900**  \r\n    *(Players rated 1800–1900 may choose their group)*\r\n\r\n---\r\n\r\n###  Time Control:\r\n**90 minutes** for 40 moves + **15 minutes** for the rest  \r\n**+ 30 seconds increment** per move from move 1\r\n\r\n---\r\n\r\n###  Schedule:\r\n\r\n| Date       | Time   | Event          |\r\n|------------|--------|----------------|\r\n| Apr 11     | 16:00  | Opening Ceremony |\r\n| Apr 11     | 16:30  | Round 1        |\r\n| Apr 12     | 10:00  | Round 2        |\r\n| Apr 12     | 17:00  | Round 3        |\r\n| Apr 13     | 16:30  | Round 4        |\r\n| Apr 14     | 10:00  | Round 5        |\r\n| Apr 14     | 17:00  | Round 6        |\r\n| Apr 15     | 16:30  | Round 7        |\r\n| Apr 16     | 16:30  | Round 8        |\r\n| Apr 17     | 10:00  | Round 9        |\r\n| Apr 17     | 16:30  | Closing Ceremony |\r\n\r\n---\r\n\r\n###  Prize Fund:\r\n- **Total: €5,100**\r\n- **1st Prize (Group A): €1,000**\r\n- Additional prizes for **Women**, **Veterans**, and **Youth**\r\n\r\n---\r\n\r\n###  Participants:\r\n- 200+ players expected\r\n- Representing over 25 countries\r\n- Includes 30+ titled players\r\n\r\n---\r\n\r\n###  Special Feature:\r\nThis event is **twinned** with the *Mikis Theodorakis Tournament* (Chania, Greece)  \r\n Combined result prizes for participants of both events\r\n\r\n---\r\n\r\n Follow all the action **live on Lichess** and be part of Cyprus's premier international chess event!"
-        },
-        "round": {
-          "id": "T0At3G1P",
-          "name": "Round 9",
-          "slug": "round-9",
-          "createdAt": 1743745873645,
-          "finishedAt": 1744886902429,
-          "finished": true,
-          "startsAt": 1744873200000,
-          "url": "https://lichess.org/broadcast/3rd-pafos-international-chess-tournament/round-9/T0At3G1P"
-        }
-      },
-      {
-        "tour": {
-          "id": "Tlgod5yF",
-          "name": "Austrian Championships 2025 | U18-Open",
-          "slug": "austrian-championships-2025--u18-open",
-          "info": {
-            "location": "Fürstenfeld, Austria",
-            "tc": "90' + 30\"/move",
-            "fideTc": "standard",
-            "timeZone": "Europe/Vienna",
-            "standings": "https://chess-results.com/tnr1121027.aspx?lan=1&art=1",
-            "format": "7-round Swiss"
-          },
-          "createdAt": 1744383171223,
-          "url": "https://lichess.org/broadcast/austrian-championships-2025--u18-open/Tlgod5yF",
-          "tier": 3,
-          "dates": [
-            1744528500000,
-            1744872300000
-          ],
-          "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:Tlgod5yF:XapTSlNs.webp&w=800&sig=55f239a92f5533fda65e221fbff3a27037c52b9e"
-        },
-        "round": {
-          "id": "xDsn6Jo3",
-          "name": "Round 7",
-          "slug": "round-7",
-          "createdAt": 1744383981409,
-          "finishedAt": 1744885678417,
-          "finished": true,
-          "startsAt": 1744872300000,
-          "url": "https://lichess.org/broadcast/austrian-championships-2025--u18-open/round-7/xDsn6Jo3"
-        },
-        "group": "Austrian Championships 2025"
-      },
-      {
-        "tour": {
-          "id": "fUNUCgw4",
-          "name": "Campionat de Catalunya d'Edats Individual 2025 | U10",
-          "slug": "campionat-de-catalunya-dedats-individual-2025--u10",
-          "info": {
-            "format": "Suís a 9 rondes",
-            "website": "https://escacs.cat/index.php/competicio/escacs-base/base-2025/campionat-de-catalunya-d-edats-2025",
-            "location": "Hotel Guitart Central Park Aqua Resort**** Carrer de Constantí Ribalaigua, nº7,",
-            "tc": "90 min + 30 sec",
-            "fideTc": "standard",
-            "timeZone": "Europe/Madrid"
-          },
-          "createdAt": 1744047864202,
-          "url": "https://lichess.org/broadcast/campionat-de-catalunya-dedats-individual-2025--u10/fUNUCgw4",
-          "tier": 3,
-          "dates": [
-            1744468200000,
-            1744875000000
-          ],
-          "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=relay:mGf1zYII:2sPyOS1u.webp&w=800&sig=8ba4070c9d588188f1ca6e90d442babd0bd51cd7",
-          "description": "El Campionat de Catalunya Individual d'Edats, que tindrà lloc del 12 al 17 d'abril de 2025 a Lloret de Mar, a l’Hotel Guitart Central Park Aqua Resort.\r\n\r\nAquest torneig, que congrega als millors joves talents dels escacs de Catalunya, és l’oportunitat perfecta perquè els esportistes emergents puguin demostrar les seves habilitats i assolir nous èxits en un ambient competitiu de màxim nivell. Les competicions seran disputades en set categories d’edat (sub- 8, sub-10, sub-12, sub-14, sub-16, sub-18 i sub-20), i els millors esportistes de cada categoria s’emportaran els trofeus de campió."
-        },
-        "round": {
-          "id": "v397IMnD",
-          "name": "Ronda 9",
-          "slug": "ronda-9",
-          "createdAt": 1743528865718,
-          "finishedAt": 1744883017668,
-          "finished": true,
-          "startsAt": 1744875000000,
-          "url": "https://lichess.org/broadcast/campionat-de-catalunya-dedats-individual-2025--u10/ronda-9/v397IMnD"
-        },
-        "group": "Campionat de Catalunya d'Edats Individual 2025"
       }
     ],
     "previousPage": null,
