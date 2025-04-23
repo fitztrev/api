@@ -60,6 +60,15 @@ properties:
     type: boolean
   verdicts:
     $ref: "./Verdicts.yaml"
+  nextRound:
+    type: object
+    properties:
+      at:
+        type: string
+        format: date-time
+      in:
+        type: integer
+        description: The number of seconds until the next round starts.
 
 required:
   - id

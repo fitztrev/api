@@ -1,11 +1,12 @@
 {
   "tour": {
-    "id": "IcoQHbPZ",
-    "name": "My Tournament",
-    "slug": "my-tournament",
+    "id": "NNmDmYkA",
+    "name": "Knight Invitational",
+    "slug": "knight-invitational",
     "info": {},
-    "createdAt": 1745198803529,
-    "url": "https://lichess.org/broadcast/my-tournament/IcoQHbPZ"
+    "createdAt": 1745372718836,
+    "url": "https://lichess.org/broadcast/knight-invitational/NNmDmYkA",
+    "tier": 5
   },
   "rounds": []
 }

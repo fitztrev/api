@@ -4,16 +4,18 @@ import { writeFileSync } from "fs";
 import { dirname, join, resolve } from "path";
 import { fileURLToPath } from "url";
 
-export const localClient = createClient<paths>({
-  baseUrl: "http://localhost:8080",
-  headers: {
-    Authorization: `Bearer lip_bobby`,
-  },
-});
+export const localClient = (as?: string) =>
+  createClient<paths>({
+    baseUrl: "http://localhost:8080",
+    headers: {
+      Authorization: `Bearer lip_${as ?? "bobby"}`,
+    },
+  });
 
-export const prodClient = createClient<paths>({
-  baseUrl: "https://lichess.org",
-});
+export const prodClient = () =>
+  createClient<paths>({
+    baseUrl: "https://lichess.org",
+  });
 
 export function example(category: string, name: string, response: any) {
   const filename = join(
