@@ -3,7 +3,7 @@ import { example, prodClient } from "./config";
 example(
   "teams",
   "getTeamSwissTournaments",
-  await prodClient.GET("/api/team/{teamId}/swiss", {
+  await prodClient().GET("/api/team/{teamId}/swiss", {
     params: {
       path: {
         teamId: "lichess-swiss",
@@ -18,7 +18,7 @@ example(
 example(
   "teams",
   "getSingleTeam",
-  await prodClient.GET("/api/team/{teamId}", {
+  await prodClient().GET("/api/team/{teamId}", {
     params: {
       path: {
         teamId: "lichess-swiss",
@@ -27,12 +27,12 @@ example(
   }),
 );
 
-example("teams", "getPopularTeams", await prodClient.GET("/api/team/all"));
+example("teams", "getPopularTeams", await prodClient().GET("/api/team/all"));
 
 example(
   "teams",
   "teamsOfPlayer",
-  await prodClient.GET("/api/team/of/{username}", {
+  await prodClient().GET("/api/team/of/{username}", {
     params: {
       path: {
         username: "thibault",
@@ -44,7 +44,7 @@ example(
 example(
   "teams",
   "searchTeams",
-  await prodClient.GET("/api/team/search", {
+  await prodClient().GET("/api/team/search", {
     params: {
       query: {
         text: "coders",

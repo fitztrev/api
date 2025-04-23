@@ -1,6 +1,6 @@
 import { example, localClient, readNdJson } from "./config";
 
-await localClient
+await localClient()
   .GET("/api/rel/following", {
     headers: {
       Accept: "application/x-ndjson",
@@ -16,7 +16,7 @@ await localClient
 example(
   "relations",
   "followPlayer",
-  await localClient.POST("/api/rel/follow/{username}", {
+  await localClient().POST("/api/rel/follow/{username}", {
     params: {
       path: {
         username: "admin",
@@ -28,7 +28,7 @@ example(
 example(
   "relations",
   "unfollowPlayer",
-  await localClient.POST("/api/rel/unfollow/{username}", {
+  await localClient().POST("/api/rel/unfollow/{username}", {
     params: {
       path: {
         username: "admin",
@@ -40,7 +40,7 @@ example(
 example(
   "relations",
   "blockPlayer",
-  await localClient.POST("/api/rel/block/{username}", {
+  await localClient().POST("/api/rel/block/{username}", {
     params: {
       path: {
         username: "jose",
@@ -52,7 +52,7 @@ example(
 example(
   "relations",
   "unblockPlayer",
-  await localClient.POST("/api/rel/unblock/{username}", {
+  await localClient().POST("/api/rel/unblock/{username}", {
     params: {
       path: {
         username: "jose",

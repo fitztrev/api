@@ -3,7 +3,7 @@ import { example, localClient, prodClient } from "./config";
 example(
   "users",
   "getRealTimeUsersStatus",
-  await localClient.GET("/api/users/status", {
+  await localClient().GET("/api/users/status", {
     params: {
       query: {
         ids: "mary,ana",
@@ -15,12 +15,12 @@ example(
   }),
 );
 
-example("users", "getAllTop10", await prodClient.GET("/api/player"));
+example("users", "getAllTop10", await prodClient().GET("/api/player"));
 
 example(
   "users",
   "getOneLeaderboard",
-  await localClient.GET("/api/player/top/{nb}/{perfType}", {
+  await localClient().GET("/api/player/top/{nb}/{perfType}", {
     params: {
       path: {
         nb: 3,
@@ -33,7 +33,7 @@ example(
 example(
   "users",
   "getUserPublicData",
-  await localClient.GET("/api/user/{username}", {
+  await localClient().GET("/api/user/{username}", {
     params: {
       path: {
         username: "mary",
@@ -45,7 +45,7 @@ example(
 example(
   "users",
   "getRatingHistoryOfAUser",
-  await localClient.GET("/api/user/{username}/rating-history", {
+  await localClient().GET("/api/user/{username}/rating-history", {
     params: {
       path: {
         username: "mary",
@@ -57,7 +57,7 @@ example(
 example(
   "users",
   "getPerformanceStatisticsOfAUser",
-  await localClient.GET("/api/user/{username}/perf/{perf}", {
+  await localClient().GET("/api/user/{username}/perf/{perf}", {
     params: {
       path: {
         username: "jose",
@@ -70,7 +70,7 @@ example(
 example(
   "users",
   "getUserActivity",
-  await prodClient.GET("/api/user/{username}/activity", {
+  await prodClient().GET("/api/user/{username}/activity", {
     params: {
       path: {
         username: "thibault",
@@ -82,7 +82,7 @@ example(
 example(
   "users",
   "getUsersById",
-  await prodClient.POST("/api/users", {
+  await prodClient().POST("/api/users", {
     body: "thibault,maia1,maia5",
     headers: {
       "Content-Type": "text/plain",
@@ -94,13 +94,13 @@ example(
 example(
   "users",
   "getLiveStreamers",
-  await prodClient.GET("/api/streamer/live"),
+  await prodClient().GET("/api/streamer/live"),
 );
 
 example(
   "users",
   "getCrosstable",
-  await prodClient.GET("/api/crosstable/{user1}/{user2}", {
+  await prodClient().GET("/api/crosstable/{user1}/{user2}", {
     params: {
       path: {
         user1: "DrNykterstein",
@@ -113,7 +113,7 @@ example(
 example(
   "users",
   "autocompleteUsernames",
-  await localClient.GET("/api/player/autocomplete", {
+  await localClient().GET("/api/player/autocomplete", {
     params: {
       query: {
         term: "bob",
@@ -126,7 +126,7 @@ example(
 example(
   "users",
   "addNoteForUser",
-  await localClient.POST("/api/user/{username}/note", {
+  await localClient().POST("/api/user/{username}/note", {
     params: {
       path: {
         username: "mary",
@@ -141,7 +141,7 @@ example(
 example(
   "users",
   "getNotesForUser",
-  await localClient.GET("/api/user/{username}/note", {
+  await localClient().GET("/api/user/{username}/note", {
     params: {
       path: {
         username: "mary",
