@@ -30,6 +30,7 @@ jobs:
           npm install --global pnpm
           pnpm install
       - run: pnpm gen
+      - run: pnpm build
       - run: pnpm format
       - name: Check for changes
         id: check_changes
