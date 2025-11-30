@@ -9,7 +9,23 @@
   },
   "main": "index.js",
   "types": "lichess-api.d.ts",
+  "files": [
+    "index.js",
+    "lichess-api.d.ts",
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./lichess-api.d.ts",
+      "default": "./index.js"
+    },
+    "./utils": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
   "scripts": {
+    "build": "tsc",
     "format": "prettier --write .",
     "gen": "openapi-typescript  ../doc/specs/lichess-api.yaml -o lichess-api.d.ts --default-non-nullable=false"
   },

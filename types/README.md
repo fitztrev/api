@@ -20,6 +20,7 @@ To regenerate:
 
 ```bash
 pnpm gen
+pnpm build
 pnpm format
 ```
 
